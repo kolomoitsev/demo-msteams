@@ -1442,7 +1442,7 @@
         "signature": "3550582f23ba71f8fc9c03b653646ec749b7af604d4b14f760c26adae90bae4b"
       },
       "../src/index.ts": {
-        "version": "20cf8b0be273afac0724b729a969872ad80f930a59f4031eb08f2d72f813d545",
+        "version": "0cc322404298147133fb161660497dcda55775ae744f5b396b10ea35c7f047a3",
         "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881"
       }
     },
@@ -2836,6 +2836,98 @@
       ]
     },
     "exportedModulesMap": {
+      "../node_modules/@types/node/child_process.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/stream.d.ts",
+        "../node_modules/@types/node/net.d.ts"
+      ],
+      "../node_modules/@types/node/cluster.d.ts": [
+        "../node_modules/@types/node/child_process.d.ts",
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/net.d.ts"
+      ],
+      "../node_modules/@types/node/crypto.d.ts": [
+        "../node_modules/@types/node/stream.d.ts"
+      ],
+      "../node_modules/@types/node/dgram.d.ts": [
+        "../node_modules/@types/node/net.d.ts",
+        "../node_modules/@types/node/dns.d.ts",
+        "../node_modules/@types/node/events.d.ts"
+      ],
+      "../node_modules/@types/node/domain.d.ts": [
+        "../node_modules/@types/node/events.d.ts"
+      ],
+      "../node_modules/@types/node/events.d.ts": [
+        "../node_modules/@types/node/events.d.ts"
+      ],
+      "../node_modules/@types/node/fs.d.ts": [
+        "../node_modules/@types/node/stream.d.ts",
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/url.d.ts"
+      ],
+      "../node_modules/@types/node/http.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/net.d.ts",
+        "../node_modules/@types/node/stream.d.ts",
+        "../node_modules/@types/node/url.d.ts"
+      ],
+      "../node_modules/@types/node/http2.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/net.d.ts",
+        "../node_modules/@types/node/stream.d.ts",
+        "../node_modules/@types/node/tls.d.ts",
+        "../node_modules/@types/node/url.d.ts",
+        "../node_modules/@types/node/http.d.ts"
+      ],
+      "../node_modules/@types/node/https.d.ts": [
+        "../node_modules/@types/node/tls.d.ts",
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/http.d.ts",
+        "../node_modules/@types/node/url.d.ts"
+      ],
+      "../node_modules/@types/node/inspector.d.ts": [
+        "../node_modules/@types/node/events.d.ts"
+      ],
+      "../node_modules/@types/node/net.d.ts": [
+        "../node_modules/@types/node/stream.d.ts",
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/dns.d.ts"
+      ],
+      "../node_modules/@types/node/perf_hooks.d.ts": [
+        "../node_modules/@types/node/async_hooks.d.ts"
+      ],
+      "../node_modules/@types/node/readline.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/stream.d.ts"
+      ],
+      "../node_modules/@types/node/repl.d.ts": [
+        "../node_modules/@types/node/readline.d.ts",
+        "../node_modules/@types/node/vm.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@types/node/stream.d.ts": [
+        "../node_modules/@types/node/events.d.ts"
+      ],
+      "../node_modules/@types/node/tls.d.ts": [
+        "../node_modules/@types/node/crypto.d.ts",
+        "../node_modules/@types/node/dns.d.ts",
+        "../node_modules/@types/node/net.d.ts",
+        "../node_modules/@types/node/stream.d.ts"
+      ],
+      "../node_modules/@types/node/tty.d.ts": [
+        "../node_modules/@types/node/net.d.ts"
+      ],
+      "../node_modules/@types/node/url.d.ts": [
+        "../node_modules/@types/node/querystring.d.ts"
+      ],
+      "../node_modules/@types/node/worker_threads.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/stream.d.ts"
+      ],
+      "../node_modules/@types/node/zlib.d.ts": [
+        "../node_modules/@types/node/stream.d.ts"
+      ],
       "../node_modules/@types/node/ts3.6/base.d.ts": [
         "../node_modules/@types/node/globals.d.ts",
         "../node_modules/@types/node/async_hooks.d.ts",
@@ -2881,623 +2973,23 @@
         "../node_modules/@types/node/ts3.6/base.d.ts",
         "../node_modules/@types/node/ts3.6/assert.d.ts"
       ],
-      "../node_modules/@types/ws/index.d.ts": [
+      "../node_modules/dotenv/types/index.d.ts": [
+        "../node_modules/@types/node/ts3.6/index.d.ts"
+      ],
+      "../node_modules/@types/bunyan/index.d.ts": [
         "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/ts3.6/index.d.ts"
+      ],
+      "../node_modules/@types/spdy/index.d.ts": [
         "../node_modules/@types/node/http.d.ts",
         "../node_modules/@types/node/https.d.ts",
-        "../node_modules/@types/node/net.d.ts",
-        "../node_modules/@types/node/url.d.ts",
-        "../node_modules/@types/node/zlib.d.ts",
         "../node_modules/@types/node/ts3.6/index.d.ts"
       ],
-      "../node_modules/botframework-streaming/lib/webSocket/nodeWebSocket.d.ts": [
-        "../node_modules/@types/ws/index.d.ts",
-        "../node_modules/botframework-streaming/lib/interfaces/index.d.ts"
-      ],
-      "../node_modules/botframework-streaming/lib/webSocket/index.d.ts": [
-        "../node_modules/botframework-streaming/lib/webSocket/factories/index.d.ts",
-        "../node_modules/botframework-streaming/lib/webSocket/nodeWebSocket.d.ts",
-        "../node_modules/botframework-streaming/lib/webSocket/nodeWebSocketClient.d.ts",
-        "../node_modules/botframework-streaming/lib/webSocket/webSocketServer.d.ts",
-        "../node_modules/botframework-streaming/lib/webSocket/webSocketTransport.d.ts"
-      ],
-      "../node_modules/botframework-streaming/lib/index.d.ts": [
-        "../node_modules/botframework-streaming/lib/contentStream.d.ts",
-        "../node_modules/botframework-streaming/lib/httpContentStream.d.ts",
-        "../node_modules/botframework-streaming/lib/interfaces/index.d.ts",
-        "../node_modules/botframework-streaming/lib/namedPipe/index.d.ts",
-        "../node_modules/botframework-streaming/lib/requestHandler.d.ts",
-        "../node_modules/botframework-streaming/lib/streamingRequest.d.ts",
-        "../node_modules/botframework-streaming/lib/streamingResponse.d.ts",
-        "../node_modules/botframework-streaming/lib/subscribableStream.d.ts",
-        "../node_modules/botframework-streaming/lib/webSocket/index.d.ts"
-      ],
-      "../node_modules/botbuilder/lib/streaming/streamingHttpClient.d.ts": [
-        "../node_modules/@azure/ms-rest-js/es/lib/msRest.d.ts",
-        "../node_modules/botframework-streaming/lib/index.d.ts"
-      ],
-      "../node_modules/botbuilder/lib/streaming/index.d.ts": [
-        "../node_modules/botbuilder/lib/streaming/constants.d.ts",
-        "../node_modules/botbuilder/lib/streaming/streamingHttpClient.d.ts",
-        "../node_modules/botbuilder/lib/streaming/tokenResolver.d.ts"
-      ],
-      "../node_modules/botbuilder/lib/index.d.ts": [
-        "../node_modules/botbuilder/lib/botFrameworkAdapter.d.ts",
-        "../node_modules/botbuilder/lib/botFrameworkHttpClient.d.ts",
-        "../node_modules/botbuilder/lib/channelServiceHandler.d.ts",
-        "../node_modules/botbuilder/lib/channelServiceRoutes.d.ts",
-        "../node_modules/botbuilder/lib/fileTranscriptStore.d.ts",
-        "../node_modules/botbuilder/lib/handoffEventNames.d.ts",
-        "../node_modules/botbuilder/lib/eventFactory.d.ts",
-        "../node_modules/botbuilder/lib/inspectionMiddleware.d.ts",
-        "../node_modules/botbuilder/lib/interfaces/index.d.ts",
-        "../node_modules/botbuilder/lib/skills/index.d.ts",
-        "../node_modules/botbuilder/lib/statusCodeError.d.ts",
-        "../node_modules/botbuilder/lib/streaming/index.d.ts",
-        "../node_modules/botbuilder/lib/teamsActivityHandler.d.ts",
-        "../node_modules/botbuilder/lib/teamsActivityHelpers.d.ts",
-        "../node_modules/botbuilder/lib/teamsInfo.d.ts",
-        "../node_modules/botbuilder-core/lib/index.d.ts"
-      ],
-      "../src/bots/dialogBot.ts": [
-        "../node_modules/botbuilder/lib/index.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/index.d.ts"
-      ],
-      "../src/dialogs/userProfileDialog.ts": [
-        "../node_modules/botbuilder/lib/index.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/index.d.ts"
-      ],
-      "../node_modules/botbuilder/lib/botFrameworkAdapter.d.ts": [
-        "../node_modules/botbuilder-core/lib/index.d.ts",
-        "../node_modules/botframework-connector/lib/index.d.ts",
-        "../node_modules/botframework-streaming/lib/index.d.ts",
-        "../node_modules/botbuilder/lib/interfaces/index.d.ts"
-      ],
-      "../node_modules/botbuilder/lib/streaming/tokenResolver.d.ts": [
-        "../node_modules/botbuilder/lib/botFrameworkAdapter.d.ts",
-        "../node_modules/botbuilder-core/lib/index.d.ts"
-      ],
-      "../node_modules/botframework-streaming/lib/webSocket/factories/nodeWebSocketFactory.d.ts": [
-        "../node_modules/botframework-streaming/lib/interfaces/index.d.ts",
-        "../node_modules/botframework-streaming/lib/webSocket/nodeWebSocket.d.ts",
-        "../node_modules/botframework-streaming/lib/webSocket/factories/nodeWebSocketFactoryBase.d.ts"
-      ],
-      "../node_modules/botframework-streaming/lib/webSocket/factories/index.d.ts": [
-        "../node_modules/botframework-streaming/lib/webSocket/factories/nodeWebSocketFactory.d.ts",
-        "../node_modules/botframework-streaming/lib/webSocket/factories/nodeWebSocketFactoryBase.d.ts"
-      ],
-      "../node_modules/botframework-streaming/lib/interfaces/INodeSocket.d.ts": [
-        "../node_modules/botframework-streaming/lib/interfaces/INodeBuffer.d.ts",
-        "../node_modules/botframework-streaming/lib/interfaces/IEventEmitter.d.ts",
-        "../node_modules/@types/node/ts3.6/index.d.ts"
-      ],
-      "../node_modules/botframework-streaming/lib/namedPipe/namedPipeTransport.d.ts": [
-        "../node_modules/botframework-streaming/lib/interfaces/INodeBuffer.d.ts",
-        "../node_modules/botframework-streaming/lib/interfaces/INodeSocket.d.ts",
-        "../node_modules/botframework-streaming/lib/interfaces/ITransportSender.d.ts",
-        "../node_modules/botframework-streaming/lib/interfaces/ITransportReceiver.d.ts"
-      ],
-      "../node_modules/botframework-streaming/lib/namedPipe/index.d.ts": [
-        "../node_modules/botframework-streaming/lib/namedPipe/namedPipeClient.d.ts",
-        "../node_modules/botframework-streaming/lib/namedPipe/namedPipeServer.d.ts",
-        "../node_modules/botframework-streaming/lib/namedPipe/namedPipeTransport.d.ts"
-      ],
-      "../node_modules/botframework-streaming/lib/interfaces/index.d.ts": [
-        "../node_modules/botframework-streaming/lib/interfaces/IBrowserFileReader.d.ts",
-        "../node_modules/botframework-streaming/lib/interfaces/IBrowserWebSocket.d.ts",
-        "../node_modules/botframework-streaming/lib/interfaces/IEventEmitter.d.ts",
-        "../node_modules/botframework-streaming/lib/interfaces/INodeBuffer.d.ts",
-        "../node_modules/botframework-streaming/lib/interfaces/INodeIncomingMessage.d.ts",
-        "../node_modules/botframework-streaming/lib/interfaces/INodeServer.d.ts",
-        "../node_modules/botframework-streaming/lib/interfaces/INodeSocket.d.ts",
-        "../node_modules/botframework-streaming/lib/interfaces/IReceiveRequest.d.ts",
-        "../node_modules/botframework-streaming/lib/interfaces/IReceiveResponse.d.ts",
-        "../node_modules/botframework-streaming/lib/interfaces/ISocket.d.ts",
-        "../node_modules/botframework-streaming/lib/interfaces/IStreamingTransportClient.d.ts",
-        "../node_modules/botframework-streaming/lib/interfaces/IStreamingTransportServer.d.ts"
-      ],
-      "../node_modules/botframework-streaming/lib/webSocket/webSocketServer.d.ts": [
-        "../node_modules/botframework-streaming/lib/requestHandler.d.ts",
-        "../node_modules/botframework-streaming/lib/streamingRequest.d.ts",
-        "../node_modules/botframework-streaming/lib/interfaces/ISocket.d.ts",
-        "../node_modules/botframework-streaming/lib/interfaces/index.d.ts"
-      ],
-      "../node_modules/botframework-streaming/lib/webSocket/nodeWebSocketClient.d.ts": [
-        "../node_modules/botframework-streaming/lib/streamingRequest.d.ts",
-        "../node_modules/botframework-streaming/lib/interfaces/index.d.ts"
-      ],
-      "../node_modules/botframework-streaming/lib/webSocket/factories/nodeWebSocketFactoryBase.d.ts": [
-        "../node_modules/botframework-streaming/lib/interfaces/index.d.ts"
-      ],
-      "../node_modules/botframework-streaming/lib/namedPipe/namedPipeServer.d.ts": [
-        "../node_modules/botframework-streaming/lib/requestHandler.d.ts",
-        "../node_modules/botframework-streaming/lib/streamingRequest.d.ts",
-        "../node_modules/botframework-streaming/lib/interfaces/index.d.ts"
-      ],
-      "../node_modules/botframework-streaming/lib/namedPipe/namedPipeClient.d.ts": [
-        "../node_modules/botframework-streaming/lib/requestHandler.d.ts",
-        "../node_modules/botframework-streaming/lib/streamingRequest.d.ts",
-        "../node_modules/botframework-streaming/lib/interfaces/index.d.ts"
-      ],
-      "../node_modules/botframework-streaming/lib/interfaces/INodeServer.d.ts": [
-        "../node_modules/botframework-streaming/lib/interfaces/index.d.ts"
-      ],
-      "../node_modules/botframework-streaming/lib/subscribableStream.d.ts": [
+      "../node_modules/@types/formidable/index.d.ts": [
+        "../node_modules/@types/node/http.d.ts",
         "../node_modules/@types/node/stream.d.ts",
+        "../node_modules/@types/node/events.d.ts",
         "../node_modules/@types/node/ts3.6/index.d.ts"
-      ],
-      "../node_modules/botframework-streaming/lib/contentStream.d.ts": [
-        "../node_modules/botframework-streaming/lib/subscribableStream.d.ts",
-        "../node_modules/botframework-streaming/lib/assemblers/index.d.ts"
-      ],
-      "../node_modules/botframework-streaming/lib/interfaces/IReceiveRequest.d.ts": [
-        "../node_modules/botframework-streaming/lib/contentStream.d.ts"
-      ],
-      "../node_modules/botframework-streaming/lib/requestHandler.d.ts": [
-        "../node_modules/botframework-streaming/lib/interfaces/IReceiveRequest.d.ts",
-        "../node_modules/botframework-streaming/lib/streamingResponse.d.ts"
-      ],
-      "../node_modules/botframework-streaming/lib/interfaces/IReceiveResponse.d.ts": [
-        "../node_modules/botframework-streaming/lib/contentStream.d.ts"
-      ],
-      "../node_modules/botframework-streaming/lib/interfaces/IStreamingTransportServer.d.ts": [
-        "../node_modules/botframework-streaming/lib/interfaces/IReceiveResponse.d.ts",
-        "../node_modules/botframework-streaming/lib/streamingRequest.d.ts"
-      ],
-      "../node_modules/botframework-streaming/lib/interfaces/IStreamingTransportClient.d.ts": [
-        "../node_modules/botframework-streaming/lib/interfaces/IReceiveResponse.d.ts",
-        "../node_modules/botframework-streaming/lib/streamingRequest.d.ts"
-      ],
-      "../node_modules/botframework-streaming/lib/payloads/requestManager.d.ts": [
-        "../node_modules/botframework-streaming/lib/interfaces/IReceiveResponse.d.ts"
-      ],
-      "../node_modules/botframework-streaming/lib/payloads/index.d.ts": [
-        "../node_modules/botframework-streaming/lib/payloads/headerSerializer.d.ts",
-        "../node_modules/botframework-streaming/lib/payloads/streamManager.d.ts",
-        "../node_modules/botframework-streaming/lib/payloads/payloadAssemblerManager.d.ts",
-        "../node_modules/botframework-streaming/lib/payloads/payloadTypes.d.ts",
-        "../node_modules/botframework-streaming/lib/payloads/requestManager.d.ts",
-        "../node_modules/botframework-streaming/lib/payloads/sendOperations.d.ts"
-      ],
-      "../node_modules/botframework-streaming/lib/assemblers/payloadAssembler.d.ts": [
-        "../node_modules/botframework-streaming/lib/subscribableStream.d.ts",
-        "../node_modules/botframework-streaming/lib/payloads/index.d.ts",
-        "../node_modules/botframework-streaming/lib/interfaces/IAssemblerParams.d.ts",
-        "../node_modules/botframework-streaming/lib/interfaces/IHeader.d.ts"
-      ],
-      "../node_modules/botframework-streaming/lib/assemblers/index.d.ts": [
-        "../node_modules/botframework-streaming/lib/assemblers/payloadAssembler.d.ts"
-      ],
-      "../node_modules/botframework-streaming/lib/payloads/streamManager.d.ts": [
-        "../node_modules/botframework-streaming/lib/interfaces/IHeader.d.ts",
-        "../node_modules/botframework-streaming/lib/subscribableStream.d.ts",
-        "../node_modules/botframework-streaming/lib/assemblers/payloadAssembler.d.ts"
-      ],
-      "../node_modules/botframework-streaming/lib/payloads/payloadAssemblerManager.d.ts": [
-        "../node_modules/botframework-streaming/lib/subscribableStream.d.ts",
-        "../node_modules/botframework-streaming/lib/payloads/streamManager.d.ts",
-        "../node_modules/botframework-streaming/lib/interfaces/IHeader.d.ts"
-      ],
-      "../node_modules/botframework-streaming/lib/httpContentStream.d.ts": [
-        "../node_modules/botframework-streaming/lib/subscribableStream.d.ts",
-        "../node_modules/botframework-streaming/lib/interfaces/IHttpContentHeaders.d.ts"
-      ],
-      "../node_modules/botframework-streaming/lib/streamingResponse.d.ts": [
-        "../node_modules/botframework-streaming/lib/httpContentStream.d.ts"
-      ],
-      "../node_modules/botframework-streaming/lib/payloads/sendOperations.d.ts": [
-        "../node_modules/botframework-streaming/lib/payloadTransport/payloadSender.d.ts",
-        "../node_modules/botframework-streaming/lib/streamingRequest.d.ts",
-        "../node_modules/botframework-streaming/lib/streamingResponse.d.ts"
-      ],
-      "../node_modules/botframework-streaming/lib/streamingRequest.d.ts": [
-        "../node_modules/botframework-streaming/lib/httpContentStream.d.ts"
-      ],
-      "../node_modules/botframework-streaming/lib/payloadTransport/payloadSender.d.ts": [
-        "../node_modules/botframework-streaming/lib/subscribableStream.d.ts",
-        "../node_modules/botframework-streaming/lib/payloadTransport/transportDisconnectedEvent.d.ts",
-        "../node_modules/botframework-streaming/lib/payloadTransport/transportDisconnectedEventHandler.d.ts",
-        "../node_modules/botframework-streaming/lib/interfaces/ITransportSender.d.ts",
-        "../node_modules/botframework-streaming/lib/interfaces/IHeader.d.ts"
-      ],
-      "../node_modules/botframework-connector/lib/connectorApi/models/index.d.ts": [
-        "../node_modules/@azure/ms-rest-js/es/lib/msRest.d.ts",
-        "../node_modules/botframework-schema/lib/index.d.ts",
-        "../node_modules/@types/node/ts3.6/index.d.ts"
-      ],
-      "../node_modules/botframework-connector/lib/index.d.ts": [
-        "../node_modules/botframework-connector/lib/auth/index.d.ts",
-        "../node_modules/botframework-connector/lib/teams/index.d.ts",
-        "../node_modules/botframework-connector/lib/tokenApi/models/index.d.ts",
-        "../node_modules/botframework-connector/lib/connectorApi/connectorClient.d.ts",
-        "../node_modules/botframework-connector/lib/connectorApi/models/index.d.ts",
-        "../node_modules/botframework-connector/lib/emulatorApiClient.d.ts",
-        "../node_modules/botframework-schema/lib/index.d.ts",
-        "../node_modules/botframework-connector/lib/tokenApi/tokenApiClient.d.ts"
-      ],
-      "../node_modules/botbuilder/lib/skills/skillHttpClient.d.ts": [
-        "../node_modules/botbuilder-core/lib/index.d.ts",
-        "../node_modules/botframework-connector/lib/index.d.ts",
-        "../node_modules/botbuilder/lib/botFrameworkHttpClient.d.ts"
-      ],
-      "../node_modules/botbuilder/lib/skills/index.d.ts": [
-        "../node_modules/botbuilder/lib/skills/skillHandler.d.ts",
-        "../node_modules/botbuilder/lib/skills/skillHttpClient.d.ts"
-      ],
-      "../node_modules/botbuilder/lib/skills/skillHandler.d.ts": [
-        "../node_modules/botbuilder-core/lib/index.d.ts",
-        "../node_modules/botframework-connector/lib/index.d.ts",
-        "../node_modules/botbuilder/lib/channelServiceHandler.d.ts"
-      ],
-      "../node_modules/botbuilder/lib/inspectionMiddleware.d.ts": [
-        "../node_modules/botframework-connector/lib/index.d.ts",
-        "../node_modules/botbuilder-core/lib/index.d.ts"
-      ],
-      "../node_modules/botbuilder/lib/channelServiceHandler.d.ts": [
-        "../node_modules/botbuilder-core/lib/index.d.ts",
-        "../node_modules/botframework-connector/lib/index.d.ts"
-      ],
-      "../node_modules/botbuilder/lib/channelServiceRoutes.d.ts": [
-        "../node_modules/botbuilder/lib/channelServiceHandler.d.ts",
-        "../node_modules/botbuilder/lib/interfaces/index.d.ts"
-      ],
-      "../node_modules/botbuilder/lib/botFrameworkHttpClient.d.ts": [
-        "../node_modules/botbuilder-core/lib/index.d.ts",
-        "../node_modules/botframework-connector/lib/index.d.ts"
-      ],
-      "../node_modules/botbuilder/lib/interfaces/connectorClientBuilder.d.ts": [
-        "../node_modules/botframework-connector/lib/index.d.ts"
-      ],
-      "../node_modules/botbuilder/lib/interfaces/index.d.ts": [
-        "../node_modules/botbuilder/lib/interfaces/connectorClientBuilder.d.ts",
-        "../node_modules/botbuilder/lib/interfaces/webRequest.d.ts",
-        "../node_modules/botbuilder/lib/interfaces/webResponse.d.ts"
-      ],
-      "../node_modules/botframework-connector/lib/connectorApi/connectorClient.d.ts": [
-        "../node_modules/@azure/ms-rest-js/es/lib/msRest.d.ts",
-        "../node_modules/botframework-connector/lib/connectorApi/connectorClientContext.d.ts",
-        "../node_modules/botframework-connector/lib/connectorApi/models/index.d.ts",
-        "../node_modules/botframework-connector/lib/connectorApi/models/mappers.d.ts",
-        "../node_modules/botframework-connector/lib/connectorApi/operations/index.d.ts"
-      ],
-      "../node_modules/botframework-connector/lib/connectorApi/operations/conversations.d.ts": [
-        "../node_modules/@azure/ms-rest-js/es/lib/msRest.d.ts",
-        "../node_modules/botframework-connector/lib/connectorApi/connectorClientContext.d.ts",
-        "../node_modules/botframework-connector/lib/connectorApi/models/index.d.ts"
-      ],
-      "../node_modules/botframework-connector/lib/connectorApi/operations/index.d.ts": [
-        "../node_modules/botframework-connector/lib/connectorApi/operations/attachments.d.ts",
-        "../node_modules/botframework-connector/lib/connectorApi/operations/conversations.d.ts"
-      ],
-      "../node_modules/botframework-connector/lib/connectorApi/operations/attachments.d.ts": [
-        "../node_modules/@azure/ms-rest-js/es/lib/msRest.d.ts",
-        "../node_modules/botframework-connector/lib/connectorApi/connectorClientContext.d.ts",
-        "../node_modules/botframework-connector/lib/connectorApi/models/index.d.ts"
-      ],
-      "../node_modules/botframework-connector/lib/connectorApi/connectorClientContext.d.ts": [
-        "../node_modules/@azure/ms-rest-js/es/lib/msRest.d.ts",
-        "../node_modules/botframework-connector/lib/connectorApi/models/index.d.ts"
-      ],
-      "../node_modules/@types/jsonwebtoken/index.d.ts": [
-        "../node_modules/@types/node/ts3.6/index.d.ts"
-      ],
-      "../node_modules/botframework-connector/lib/auth/emulatorValidation.d.ts": [
-        "../node_modules/@types/jsonwebtoken/index.d.ts",
-        "../node_modules/botframework-connector/lib/auth/claimsIdentity.d.ts",
-        "../node_modules/botframework-connector/lib/auth/authenticationConfiguration.d.ts",
-        "../node_modules/botframework-connector/lib/auth/credentialProvider.d.ts"
-      ],
-      "../node_modules/botframework-connector/lib/auth/index.d.ts": [
-        "../node_modules/botframework-connector/lib/auth/credentialProvider.d.ts",
-        "../node_modules/botframework-connector/lib/auth/microsoftAppCredentials.d.ts",
-        "../node_modules/botframework-connector/lib/auth/appCredentials.d.ts",
-        "../node_modules/botframework-connector/lib/auth/certificateAppCredentials.d.ts",
-        "../node_modules/botframework-connector/lib/auth/jwtTokenValidation.d.ts",
-        "../node_modules/botframework-connector/lib/auth/channelValidation.d.ts",
-        "../node_modules/botframework-connector/lib/auth/governmentChannelValidation.d.ts",
-        "../node_modules/botframework-connector/lib/auth/governmentConstants.d.ts",
-        "../node_modules/botframework-connector/lib/auth/enterpriseChannelValidation.d.ts",
-        "../node_modules/botframework-connector/lib/auth/emulatorValidation.d.ts",
-        "../node_modules/botframework-connector/lib/auth/endorsementsValidator.d.ts",
-        "../node_modules/botframework-connector/lib/auth/claimsIdentity.d.ts",
-        "../node_modules/botframework-connector/lib/auth/authenticationConfiguration.d.ts",
-        "../node_modules/botframework-connector/lib/auth/authenticationConstants.d.ts",
-        "../node_modules/botframework-connector/lib/auth/authenticationError.d.ts",
-        "../node_modules/botframework-connector/lib/auth/skillValidation.d.ts"
-      ],
-      "../node_modules/botframework-connector/lib/auth/enterpriseChannelValidation.d.ts": [
-        "../node_modules/@types/jsonwebtoken/index.d.ts",
-        "../node_modules/botframework-connector/lib/auth/authenticationConfiguration.d.ts",
-        "../node_modules/botframework-connector/lib/auth/claimsIdentity.d.ts",
-        "../node_modules/botframework-connector/lib/auth/credentialProvider.d.ts"
-      ],
-      "../node_modules/botframework-connector/lib/auth/governmentChannelValidation.d.ts": [
-        "../node_modules/@types/jsonwebtoken/index.d.ts",
-        "../node_modules/botframework-connector/lib/auth/authenticationConfiguration.d.ts",
-        "../node_modules/botframework-connector/lib/auth/claimsIdentity.d.ts",
-        "../node_modules/botframework-connector/lib/auth/credentialProvider.d.ts"
-      ],
-      "../node_modules/botframework-connector/lib/auth/channelValidation.d.ts": [
-        "../node_modules/@types/jsonwebtoken/index.d.ts",
-        "../node_modules/botframework-connector/lib/auth/authenticationConfiguration.d.ts",
-        "../node_modules/botframework-connector/lib/auth/claimsIdentity.d.ts",
-        "../node_modules/botframework-connector/lib/auth/credentialProvider.d.ts"
-      ],
-      "../node_modules/@azure/ms-rest-js/es/lib/axiosHttpClient.d.ts": [
-        "../node_modules/@azure/ms-rest-js/es/lib/httpClient.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/httpHeaders.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/httpOperationResponse.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/webResource.d.ts",
-        "../node_modules/@types/tunnel/index.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/serviceClient.d.ts",
-        "../node_modules/@types/node/http.d.ts",
-        "../node_modules/@types/node/https.d.ts",
-        "../node_modules/axios/index.d.ts",
-        "../node_modules/@types/node/ts3.6/index.d.ts"
-      ],
-      "../node_modules/@azure/ms-rest-js/es/lib/defaultHttpClient.d.ts": [
-        "../node_modules/@azure/ms-rest-js/es/lib/axiosHttpClient.d.ts"
-      ],
-      "../node_modules/@azure/ms-rest-js/es/lib/msRest.d.ts": [
-        "../node_modules/@azure/ms-rest-js/es/lib/webResource.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/defaultHttpClient.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/httpClient.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/httpHeaders.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/httpOperationResponse.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/httpPipelineLogger.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/httpPipelineLogLevel.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/restError.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/operationArguments.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/operationParameter.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/operationResponse.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/operationSpec.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/serviceClient.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/queryCollectionFormat.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/util/constants.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/policies/logPolicy.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/policies/requestPolicy.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/policies/generateClientRequestIdPolicy.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/policies/exponentialRetryPolicy.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/policies/systemErrorRetryPolicy.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/policies/throttlingRetryPolicy.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/policies/proxyPolicy.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/policies/redirectPolicy.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/policies/signingPolicy.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/policies/userAgentPolicy.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/policies/deserializationPolicy.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/serializer.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/util/utils.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/url.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/credentials/tokenCredentials.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/credentials/basicAuthenticationCredentials.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/credentials/apiKeyCredentials.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/credentials/serviceClientCredentials.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/credentials/topicCredentials.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/credentials/domainCredentials.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/credentials/credentials.d.ts"
-      ],
-      "../node_modules/botframework-connector/lib/tokenApi/tokenApiClient.d.ts": [
-        "../node_modules/@azure/ms-rest-js/es/lib/msRest.d.ts",
-        "../node_modules/botframework-connector/lib/tokenApi/models/index.d.ts",
-        "../node_modules/botframework-connector/lib/tokenApi/models/mappers.d.ts",
-        "../node_modules/botframework-connector/lib/tokenApi/operations/index.d.ts",
-        "../node_modules/botframework-connector/lib/tokenApi/tokenApiClientContext.d.ts"
-      ],
-      "../node_modules/botframework-connector/lib/tokenApi/operations/userToken.d.ts": [
-        "../node_modules/@azure/ms-rest-js/es/lib/msRest.d.ts",
-        "../node_modules/botframework-connector/lib/tokenApi/models/index.d.ts",
-        "../node_modules/botframework-connector/lib/tokenApi/tokenApiClientContext.d.ts",
-        "../node_modules/botframework-schema/lib/index.d.ts"
-      ],
-      "../node_modules/botframework-connector/lib/tokenApi/operations/index.d.ts": [
-        "../node_modules/botframework-connector/lib/tokenApi/operations/botSignIn.d.ts",
-        "../node_modules/botframework-connector/lib/tokenApi/operations/userToken.d.ts"
-      ],
-      "../node_modules/botframework-connector/lib/tokenApi/operations/botSignIn.d.ts": [
-        "../node_modules/@azure/ms-rest-js/es/lib/msRest.d.ts",
-        "../node_modules/botframework-connector/lib/tokenApi/models/index.d.ts",
-        "../node_modules/botframework-connector/lib/tokenApi/tokenApiClientContext.d.ts",
-        "../node_modules/botframework-schema/lib/index.d.ts"
-      ],
-      "../node_modules/botframework-connector/lib/tokenApi/tokenApiClientContext.d.ts": [
-        "../node_modules/@azure/ms-rest-js/es/lib/msRest.d.ts",
-        "../node_modules/botframework-connector/lib/tokenApi/models/index.d.ts"
-      ],
-      "../node_modules/botframework-connector/lib/tokenApi/models/mappers.d.ts": [
-        "../node_modules/@azure/ms-rest-js/es/lib/msRest.d.ts"
-      ],
-      "../node_modules/botframework-connector/lib/connectorApi/models/mappers.d.ts": [
-        "../node_modules/@azure/ms-rest-js/es/lib/msRest.d.ts"
-      ],
-      "../node_modules/botframework-connector/lib/tokenApi/models/index.d.ts": [
-        "../node_modules/@azure/ms-rest-js/es/lib/msRest.d.ts",
-        "../node_modules/botframework-schema/lib/index.d.ts"
-      ],
-      "../node_modules/botframework-connector/lib/teams/teamsConnectorClient.d.ts": [
-        "../node_modules/@azure/ms-rest-js/es/lib/msRest.d.ts",
-        "../node_modules/botframework-connector/lib/teams/models/index.d.ts",
-        "../node_modules/botframework-connector/lib/teams/models/mappers.d.ts",
-        "../node_modules/botframework-connector/lib/teams/operations/index.d.ts",
-        "../node_modules/botframework-connector/lib/teams/teamsConnectorClientContext.d.ts"
-      ],
-      "../node_modules/botframework-connector/lib/teams/index.d.ts": [
-        "../node_modules/botframework-connector/lib/teams/teamsConnectorClient.d.ts",
-        "../node_modules/botframework-connector/lib/teams/teamsConnectorClientContext.d.ts",
-        "../node_modules/botframework-connector/lib/teams/models/index.d.ts"
-      ],
-      "../node_modules/botframework-connector/lib/teams/operations/teams.d.ts": [
-        "../node_modules/@azure/ms-rest-js/es/lib/msRest.d.ts",
-        "../node_modules/botframework-connector/lib/teams/models/index.d.ts",
-        "../node_modules/botframework-connector/lib/teams/index.d.ts",
-        "../node_modules/botframework-schema/lib/index.d.ts"
-      ],
-      "../node_modules/botframework-connector/lib/teams/operations/index.d.ts": [
-        "../node_modules/botframework-connector/lib/teams/operations/teams.d.ts"
-      ],
-      "../node_modules/botframework-connector/lib/teams/teamsConnectorClientContext.d.ts": [
-        "../node_modules/@azure/ms-rest-js/es/lib/msRest.d.ts",
-        "../node_modules/botframework-connector/lib/teams/models/index.d.ts"
-      ],
-      "../node_modules/botframework-connector/lib/teams/models/mappers.d.ts": [
-        "../node_modules/@azure/ms-rest-js/es/lib/msRest.d.ts"
-      ],
-      "../node_modules/botframework-connector/lib/teams/models/index.d.ts": [
-        "../node_modules/@azure/ms-rest-js/es/lib/msRest.d.ts",
-        "../node_modules/botframework-schema/lib/index.d.ts"
-      ],
-      "../node_modules/botframework-connector/lib/auth/appCredentials.d.ts": [
-        "../node_modules/@azure/ms-rest-js/es/lib/msRest.d.ts",
-        "../node_modules/adal-node/lib/adal.d.ts"
-      ],
-      "../node_modules/botframework-connector/lib/emulatorApiClient.d.ts": [
-        "../node_modules/botframework-connector/lib/auth/appCredentials.d.ts"
-      ],
-      "../node_modules/botframework-connector/lib/auth/certificateAppCredentials.d.ts": [
-        "../node_modules/adal-node/lib/adal.d.ts",
-        "../node_modules/botframework-connector/lib/auth/appCredentials.d.ts"
-      ],
-      "../node_modules/botframework-connector/lib/auth/microsoftAppCredentials.d.ts": [
-        "../node_modules/adal-node/lib/adal.d.ts",
-        "../node_modules/botframework-connector/lib/auth/appCredentials.d.ts"
-      ],
-      "../node_modules/@types/tunnel/index.d.ts": [
-        "../node_modules/@types/node/http.d.ts",
-        "../node_modules/@types/node/ts3.6/index.d.ts"
-      ],
-      "../node_modules/@azure/ms-rest-js/es/lib/webResource.d.ts": [
-        "../node_modules/@azure/ms-rest-js/es/lib/httpHeaders.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/operationSpec.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/serializer.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/httpOperationResponse.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/operationResponse.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/serviceClient.d.ts",
-        "../node_modules/@types/node/ts3.6/index.d.ts"
-      ],
-      "../node_modules/@azure/ms-rest-js/es/lib/credentials/apiKeyCredentials.d.ts": [
-        "../node_modules/@azure/ms-rest-js/es/lib/webResource.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/credentials/serviceClientCredentials.d.ts"
-      ],
-      "../node_modules/@azure/ms-rest-js/es/lib/credentials/domainCredentials.d.ts": [
-        "../node_modules/@azure/ms-rest-js/es/lib/credentials/apiKeyCredentials.d.ts"
-      ],
-      "../node_modules/@azure/ms-rest-js/es/lib/credentials/topicCredentials.d.ts": [
-        "../node_modules/@azure/ms-rest-js/es/lib/credentials/apiKeyCredentials.d.ts"
-      ],
-      "../node_modules/@azure/ms-rest-js/es/lib/credentials/basicAuthenticationCredentials.d.ts": [
-        "../node_modules/@azure/ms-rest-js/es/lib/webResource.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/credentials/serviceClientCredentials.d.ts"
-      ],
-      "../node_modules/@azure/ms-rest-js/es/lib/credentials/tokenCredentials.d.ts": [
-        "../node_modules/@azure/ms-rest-js/es/lib/webResource.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/credentials/serviceClientCredentials.d.ts"
-      ],
-      "../node_modules/@azure/ms-rest-js/es/lib/policies/userAgentPolicy.d.ts": [
-        "../node_modules/@azure/ms-rest-js/es/lib/httpOperationResponse.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/webResource.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/policies/msRestUserAgentPolicy.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/policies/requestPolicy.d.ts"
-      ],
-      "../node_modules/@azure/ms-rest-js/es/lib/policies/msRestUserAgentPolicy.d.ts": [
-        "../node_modules/@azure/ms-rest-js/es/lib/policies/userAgentPolicy.d.ts"
-      ],
-      "../node_modules/@azure/ms-rest-js/es/lib/policies/signingPolicy.d.ts": [
-        "../node_modules/@azure/ms-rest-js/es/lib/credentials/serviceClientCredentials.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/httpOperationResponse.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/webResource.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/policies/requestPolicy.d.ts"
-      ],
-      "../node_modules/@azure/ms-rest-js/es/lib/policies/redirectPolicy.d.ts": [
-        "../node_modules/@azure/ms-rest-js/es/lib/httpOperationResponse.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/webResource.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/policies/requestPolicy.d.ts"
-      ],
-      "../node_modules/@azure/ms-rest-js/es/lib/policies/proxyPolicy.d.ts": [
-        "../node_modules/@azure/ms-rest-js/es/lib/policies/requestPolicy.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/httpOperationResponse.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/serviceClient.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/webResource.d.ts"
-      ],
-      "../node_modules/@azure/ms-rest-js/es/lib/policies/throttlingRetryPolicy.d.ts": [
-        "../node_modules/@azure/ms-rest-js/es/lib/policies/requestPolicy.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/webResource.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/httpOperationResponse.d.ts"
-      ],
-      "../node_modules/@azure/ms-rest-js/es/lib/policies/systemErrorRetryPolicy.d.ts": [
-        "../node_modules/@azure/ms-rest-js/es/lib/httpOperationResponse.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/webResource.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/policies/requestPolicy.d.ts"
-      ],
-      "../node_modules/@azure/ms-rest-js/es/lib/policies/exponentialRetryPolicy.d.ts": [
-        "../node_modules/@azure/ms-rest-js/es/lib/httpOperationResponse.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/webResource.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/policies/requestPolicy.d.ts"
-      ],
-      "../node_modules/@azure/ms-rest-js/es/lib/policies/generateClientRequestIdPolicy.d.ts": [
-        "../node_modules/@azure/ms-rest-js/es/lib/httpOperationResponse.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/webResource.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/policies/requestPolicy.d.ts"
-      ],
-      "../node_modules/@azure/ms-rest-js/es/lib/policies/logPolicy.d.ts": [
-        "../node_modules/@azure/ms-rest-js/es/lib/httpOperationResponse.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/webResource.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/policies/requestPolicy.d.ts"
-      ],
-      "../node_modules/@azure/ms-rest-js/es/lib/serviceClient.d.ts": [
-        "../node_modules/@azure/ms-rest-js/es/lib/credentials/serviceClientCredentials.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/httpClient.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/httpOperationResponse.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/httpPipelineLogger.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/operationArguments.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/operationParameter.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/operationSpec.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/policies/deserializationPolicy.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/policies/requestPolicy.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/serializer.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/webResource.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/operationResponse.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/util/utils.d.ts",
-        "../node_modules/@types/node/http.d.ts",
-        "../node_modules/@types/node/ts3.6/index.d.ts"
-      ],
-      "../node_modules/@azure/ms-rest-js/es/lib/util/utils.d.ts": [
-        "../node_modules/@azure/ms-rest-js/es/lib/httpOperationResponse.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/restError.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/webResource.d.ts"
-      ],
-      "../node_modules/@azure/ms-rest-js/es/lib/restError.d.ts": [
-        "../node_modules/@azure/ms-rest-js/es/lib/httpOperationResponse.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/webResource.d.ts"
-      ],
-      "../node_modules/@azure/ms-rest-js/es/lib/policies/deserializationPolicy.d.ts": [
-        "../node_modules/@azure/ms-rest-js/es/lib/httpOperationResponse.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/webResource.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/policies/requestPolicy.d.ts"
-      ],
-      "../node_modules/@azure/ms-rest-js/es/lib/operationArguments.d.ts": [
-        "../node_modules/@azure/ms-rest-js/es/lib/webResource.d.ts"
-      ],
-      "../node_modules/@azure/ms-rest-js/es/lib/policies/requestPolicy.d.ts": [
-        "../node_modules/@azure/ms-rest-js/es/lib/httpOperationResponse.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/httpPipelineLogger.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/httpPipelineLogLevel.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/webResource.d.ts"
-      ],
-      "../node_modules/@azure/ms-rest-js/es/lib/httpClient.d.ts": [
-        "../node_modules/@azure/ms-rest-js/es/lib/policies/requestPolicy.d.ts"
-      ],
-      "../node_modules/@azure/ms-rest-js/es/lib/credentials/serviceClientCredentials.d.ts": [
-        "../node_modules/@azure/ms-rest-js/es/lib/webResource.d.ts"
-      ],
-      "../node_modules/@azure/ms-rest-js/es/lib/httpOperationResponse.d.ts": [
-        "../node_modules/@azure/ms-rest-js/es/lib/webResource.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/httpHeaders.d.ts",
-        "../node_modules/@types/node/ts3.6/index.d.ts"
-      ],
-      "../node_modules/@azure/ms-rest-js/es/lib/operationSpec.d.ts": [
-        "../node_modules/@azure/ms-rest-js/es/lib/operationParameter.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/operationResponse.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/serializer.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/webResource.d.ts"
       ],
       "../node_modules/@types/restify/index.d.ts": [
         "../node_modules/@types/node/http.d.ts",
@@ -3510,120 +3002,19 @@
         "../node_modules/@types/formidable/index.d.ts",
         "../node_modules/@types/node/ts3.6/index.d.ts"
       ],
-      "../node_modules/@types/formidable/index.d.ts": [
-        "../node_modules/@types/node/http.d.ts",
-        "../node_modules/@types/node/stream.d.ts",
-        "../node_modules/@types/node/events.d.ts",
-        "../node_modules/@types/node/ts3.6/index.d.ts"
-      ],
-      "../node_modules/@types/spdy/index.d.ts": [
-        "../node_modules/@types/node/http.d.ts",
-        "../node_modules/@types/node/https.d.ts",
-        "../node_modules/@types/node/ts3.6/index.d.ts"
-      ],
-      "../node_modules/@types/bunyan/index.d.ts": [
-        "../node_modules/@types/node/events.d.ts",
-        "../node_modules/@types/node/ts3.6/index.d.ts"
-      ],
-      "../node_modules/dotenv/types/index.d.ts": [
-        "../node_modules/@types/node/ts3.6/index.d.ts"
-      ],
-      "../node_modules/@types/node/perf_hooks.d.ts": [
-        "../node_modules/@types/node/async_hooks.d.ts"
-      ],
-      "../node_modules/@types/node/child_process.d.ts": [
-        "../node_modules/@types/node/events.d.ts",
-        "../node_modules/@types/node/stream.d.ts",
-        "../node_modules/@types/node/net.d.ts"
-      ],
-      "../node_modules/@types/node/cluster.d.ts": [
-        "../node_modules/@types/node/child_process.d.ts",
-        "../node_modules/@types/node/events.d.ts",
-        "../node_modules/@types/node/net.d.ts"
-      ],
-      "../node_modules/@types/node/crypto.d.ts": [
-        "../node_modules/@types/node/stream.d.ts"
-      ],
-      "../node_modules/@types/node/tls.d.ts": [
-        "../node_modules/@types/node/crypto.d.ts",
-        "../node_modules/@types/node/dns.d.ts",
-        "../node_modules/@types/node/net.d.ts",
-        "../node_modules/@types/node/stream.d.ts"
-      ],
-      "../node_modules/@types/node/https.d.ts": [
-        "../node_modules/@types/node/tls.d.ts",
-        "../node_modules/@types/node/events.d.ts",
-        "../node_modules/@types/node/http.d.ts",
-        "../node_modules/@types/node/url.d.ts"
-      ],
-      "../node_modules/@types/node/http2.d.ts": [
-        "../node_modules/@types/node/events.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/net.d.ts",
-        "../node_modules/@types/node/stream.d.ts",
-        "../node_modules/@types/node/tls.d.ts",
-        "../node_modules/@types/node/url.d.ts",
-        "../node_modules/@types/node/http.d.ts"
-      ],
-      "../node_modules/@types/node/dgram.d.ts": [
-        "../node_modules/@types/node/net.d.ts",
-        "../node_modules/@types/node/dns.d.ts",
-        "../node_modules/@types/node/events.d.ts"
-      ],
-      "../node_modules/@types/node/net.d.ts": [
-        "../node_modules/@types/node/stream.d.ts",
-        "../node_modules/@types/node/events.d.ts",
-        "../node_modules/@types/node/dns.d.ts"
-      ],
-      "../node_modules/@types/node/tty.d.ts": [
-        "../node_modules/@types/node/net.d.ts"
-      ],
-      "../node_modules/@types/node/http.d.ts": [
-        "../node_modules/@types/node/events.d.ts",
-        "../node_modules/@types/node/net.d.ts",
-        "../node_modules/@types/node/stream.d.ts",
-        "../node_modules/@types/node/url.d.ts"
-      ],
-      "../node_modules/adal-node/lib/adal.d.ts": [
-        "../node_modules/@types/node/http.d.ts"
-      ],
-      "../node_modules/@types/node/domain.d.ts": [
-        "../node_modules/@types/node/events.d.ts"
-      ],
-      "../node_modules/@types/node/events.d.ts": [
-        "../node_modules/@types/node/events.d.ts"
-      ],
-      "../node_modules/@types/node/worker_threads.d.ts": [
-        "../node_modules/@types/node/events.d.ts",
-        "../node_modules/@types/node/stream.d.ts"
-      ],
-      "../node_modules/@types/node/stream.d.ts": [
-        "../node_modules/@types/node/events.d.ts"
-      ],
-      "../node_modules/@types/node/zlib.d.ts": [
-        "../node_modules/@types/node/stream.d.ts"
-      ],
-      "../node_modules/@types/node/readline.d.ts": [
-        "../node_modules/@types/node/events.d.ts",
-        "../node_modules/@types/node/stream.d.ts"
-      ],
-      "../node_modules/@types/node/repl.d.ts": [
-        "../node_modules/@types/node/readline.d.ts",
-        "../node_modules/@types/node/vm.d.ts",
-        "../node_modules/@types/node/util.d.ts"
-      ],
-      "../node_modules/@types/node/fs.d.ts": [
-        "../node_modules/@types/node/stream.d.ts",
-        "../node_modules/@types/node/events.d.ts",
-        "../node_modules/@types/node/url.d.ts"
-      ],
-      "../node_modules/@types/node/inspector.d.ts": [
-        "../node_modules/@types/node/events.d.ts"
-      ],
-      "../node_modules/@types/node/url.d.ts": [
-        "../node_modules/@types/node/querystring.d.ts"
-      ],
       "../node_modules/botframework-schema/lib/activityInterfaces.d.ts": [
+        "../node_modules/botframework-schema/lib/index.d.ts"
+      ],
+      "../node_modules/botframework-schema/lib/activityEx.d.ts": [
+        "../node_modules/botframework-schema/lib/activityInterfaces.d.ts",
+        "../node_modules/botframework-schema/lib/index.d.ts"
+      ],
+      "../node_modules/botframework-schema/lib/teams/extension/index.d.ts": [
+        "../node_modules/botframework-schema/lib/index.d.ts",
+        "../node_modules/botframework-schema/lib/teams/index.d.ts"
+      ],
+      "../node_modules/botframework-schema/lib/teams/index.d.ts": [
+        "../node_modules/botframework-schema/lib/teams/extension/index.d.ts",
         "../node_modules/botframework-schema/lib/index.d.ts"
       ],
       "../node_modules/botframework-schema/lib/index.d.ts": [
@@ -3635,18 +3026,156 @@
         "../node_modules/botframework-schema/lib/tokenExchangeInvokeRequest.d.ts",
         "../node_modules/botframework-schema/lib/teams/index.d.ts"
       ],
-      "../node_modules/botbuilder/lib/eventFactory.d.ts": [
-        "../node_modules/botbuilder-core/lib/index.d.ts",
+      "../node_modules/botbuilder-core/lib/activityFactory.d.ts": [
         "../node_modules/botframework-schema/lib/index.d.ts"
       ],
-      "../node_modules/botframework-connector/lib/auth/authenticationError.d.ts": [
-        "../node_modules/botframework-schema/lib/index.d.ts"
-      ],
-      "../node_modules/botframework-connector/lib/auth/jwtTokenValidation.d.ts": [
+      "../node_modules/botbuilder-core/lib/turnContext.d.ts": [
         "../node_modules/botframework-schema/lib/index.d.ts",
-        "../node_modules/botframework-connector/lib/auth/authenticationConfiguration.d.ts",
-        "../node_modules/botframework-connector/lib/auth/claimsIdentity.d.ts",
-        "../node_modules/botframework-connector/lib/auth/credentialProvider.d.ts"
+        "../node_modules/botbuilder-core/lib/botAdapter.d.ts",
+        "../node_modules/botbuilder-core/lib/turnContextStateCollection.d.ts"
+      ],
+      "../node_modules/botbuilder-core/lib/middlewareSet.d.ts": [
+        "../node_modules/botbuilder-core/lib/turnContext.d.ts"
+      ],
+      "../node_modules/botbuilder-core/lib/botAdapter.d.ts": [
+        "../node_modules/botframework-schema/lib/index.d.ts",
+        "../node_modules/botbuilder-core/lib/middlewareSet.d.ts",
+        "../node_modules/botbuilder-core/lib/turnContext.d.ts"
+      ],
+      "../node_modules/botbuilder-core/lib/botStatePropertyAccessor.d.ts": [
+        "../node_modules/botbuilder-core/lib/botState.d.ts",
+        "../node_modules/botbuilder-core/lib/turnContext.d.ts"
+      ],
+      "../node_modules/botbuilder-core/lib/propertyManager.d.ts": [
+        "../node_modules/botbuilder-core/lib/botStatePropertyAccessor.d.ts"
+      ],
+      "../node_modules/botbuilder-core/lib/storage.d.ts": [
+        "../node_modules/botbuilder-core/lib/turnContext.d.ts"
+      ],
+      "../node_modules/botbuilder-core/lib/botState.d.ts": [
+        "../node_modules/botbuilder-core/lib/botStatePropertyAccessor.d.ts",
+        "../node_modules/botbuilder-core/lib/propertyManager.d.ts",
+        "../node_modules/botbuilder-core/lib/storage.d.ts",
+        "../node_modules/botbuilder-core/lib/turnContext.d.ts"
+      ],
+      "../node_modules/botbuilder-core/lib/adapterExtensions.d.ts": [
+        "../node_modules/botbuilder-core/lib/botAdapter.d.ts",
+        "../node_modules/botbuilder-core/lib/botState.d.ts"
+      ],
+      "../node_modules/botbuilder-core/lib/activityHandlerBase.d.ts": [
+        "../node_modules/botbuilder-core/lib/index.d.ts",
+        "../node_modules/botbuilder-core/lib/invokeResponse.d.ts"
+      ],
+      "../node_modules/botbuilder-core/lib/activityHandler.d.ts": [
+        "../node_modules/botframework-schema/lib/index.d.ts",
+        "../node_modules/botbuilder-core/lib/activityHandlerBase.d.ts",
+        "../node_modules/botbuilder-core/lib/invokeResponse.d.ts",
+        "../node_modules/botbuilder-core/lib/turnContext.d.ts"
+      ],
+      "../node_modules/botbuilder-core/lib/botStateSet.d.ts": [
+        "../node_modules/botbuilder-core/lib/botState.d.ts",
+        "../node_modules/botbuilder-core/lib/turnContext.d.ts"
+      ],
+      "../node_modules/botbuilder-core/lib/autoSaveStateMiddleware.d.ts": [
+        "../node_modules/botbuilder-core/lib/botState.d.ts",
+        "../node_modules/botbuilder-core/lib/botStateSet.d.ts",
+        "../node_modules/botbuilder-core/lib/middlewareSet.d.ts",
+        "../node_modules/botbuilder-core/lib/turnContext.d.ts"
+      ],
+      "../node_modules/botbuilder-core/lib/memoryStorage.d.ts": [
+        "../node_modules/botbuilder-core/lib/storage.d.ts"
+      ],
+      "../node_modules/botbuilder-core/lib/browserStorage.d.ts": [
+        "../node_modules/botbuilder-core/lib/memoryStorage.d.ts"
+      ],
+      "../node_modules/botbuilder-core/lib/cardFactory.d.ts": [
+        "../node_modules/botframework-schema/lib/index.d.ts"
+      ],
+      "../node_modules/botbuilder-core/lib/conversationState.d.ts": [
+        "../node_modules/botbuilder-core/lib/botState.d.ts",
+        "../node_modules/botbuilder-core/lib/storage.d.ts",
+        "../node_modules/botbuilder-core/lib/turnContext.d.ts"
+      ],
+      "../node_modules/botbuilder-core/lib/userTokenProvider.d.ts": [
+        "../node_modules/botbuilder-core/lib/turnContext.d.ts",
+        "../node_modules/botframework-schema/lib/index.d.ts"
+      ],
+      "../node_modules/botbuilder-core/lib/extendedUserTokenProvider.d.ts": [
+        "../node_modules/botbuilder-core/lib/coreAppCredentials.d.ts",
+        "../node_modules/botbuilder-core/lib/userTokenProvider.d.ts",
+        "../node_modules/botbuilder-core/lib/turnContext.d.ts",
+        "../node_modules/botframework-schema/lib/index.d.ts"
+      ],
+      "../node_modules/botbuilder-core/lib/transcriptLogger.d.ts": [
+        "../node_modules/botframework-schema/lib/index.d.ts",
+        "../node_modules/botbuilder-core/lib/middlewareSet.d.ts",
+        "../node_modules/botbuilder-core/lib/turnContext.d.ts"
+      ],
+      "../node_modules/botbuilder-core/lib/memoryTranscriptStore.d.ts": [
+        "../node_modules/botframework-schema/lib/index.d.ts",
+        "../node_modules/botbuilder-core/lib/transcriptLogger.d.ts"
+      ],
+      "../node_modules/botbuilder-core/lib/messageFactory.d.ts": [
+        "../node_modules/botframework-schema/lib/index.d.ts"
+      ],
+      "../node_modules/botbuilder-core/lib/privateConversationState.d.ts": [
+        "../node_modules/botbuilder-core/lib/botState.d.ts",
+        "../node_modules/botbuilder-core/lib/storage.d.ts",
+        "../node_modules/botbuilder-core/lib/turnContext.d.ts"
+      ],
+      "../node_modules/botbuilder-core/lib/registerClassMiddleware.d.ts": [
+        "../node_modules/botbuilder-core/lib/middlewareSet.d.ts",
+        "../node_modules/botbuilder-core/lib/turnContext.d.ts"
+      ],
+      "../node_modules/botbuilder-core/lib/showTypingMiddleware.d.ts": [
+        "../node_modules/botbuilder-core/lib/middlewareSet.d.ts",
+        "../node_modules/botbuilder-core/lib/turnContext.d.ts"
+      ],
+      "../node_modules/botbuilder-core/lib/skills/botFrameworkClient.d.ts": [
+        "../node_modules/botframework-schema/lib/index.d.ts",
+        "../node_modules/botbuilder-core/lib/invokeResponse.d.ts"
+      ],
+      "../node_modules/botbuilder-core/lib/skills/skillConversationIdFactoryOptions.d.ts": [
+        "../node_modules/botframework-schema/lib/index.d.ts",
+        "../node_modules/botbuilder-core/lib/skills/botFrameworkSkill.d.ts"
+      ],
+      "../node_modules/botbuilder-core/lib/skills/skillConversationReference.d.ts": [
+        "../node_modules/botframework-schema/lib/index.d.ts"
+      ],
+      "../node_modules/botbuilder-core/lib/skills/skillConversationIdFactoryBase.d.ts": [
+        "../node_modules/botframework-schema/lib/index.d.ts",
+        "../node_modules/botbuilder-core/lib/skills/skillConversationIdFactoryOptions.d.ts",
+        "../node_modules/botbuilder-core/lib/skills/skillConversationReference.d.ts"
+      ],
+      "../node_modules/botbuilder-core/lib/skills/index.d.ts": [
+        "../node_modules/botbuilder-core/lib/skills/botFrameworkClient.d.ts",
+        "../node_modules/botbuilder-core/lib/skills/botFrameworkSkill.d.ts",
+        "../node_modules/botbuilder-core/lib/skills/constants.d.ts",
+        "../node_modules/botbuilder-core/lib/skills/skillConversationIdFactoryBase.d.ts",
+        "../node_modules/botbuilder-core/lib/skills/skillConversationReference.d.ts",
+        "../node_modules/botbuilder-core/lib/skills/skillConversationIdFactoryOptions.d.ts"
+      ],
+      "../node_modules/botbuilder-core/lib/skypeMentionNormalizeMiddleware.d.ts": [
+        "../node_modules/botframework-schema/lib/index.d.ts",
+        "../node_modules/botbuilder-core/lib/middlewareSet.d.ts",
+        "../node_modules/botbuilder-core/lib/turnContext.d.ts"
+      ],
+      "../node_modules/botbuilder-core/lib/telemetryLoggerMiddleware.d.ts": [
+        "../node_modules/botbuilder-core/lib/botTelemetryClient.d.ts",
+        "../node_modules/botbuilder-core/lib/middlewareSet.d.ts",
+        "../node_modules/botbuilder-core/lib/turnContext.d.ts",
+        "../node_modules/botframework-schema/lib/index.d.ts"
+      ],
+      "../node_modules/botbuilder-core/lib/testAdapter.d.ts": [
+        "../node_modules/botframework-schema/lib/index.d.ts",
+        "../node_modules/botbuilder-core/lib/botAdapter.d.ts",
+        "../node_modules/botbuilder-core/lib/extendedUserTokenProvider.d.ts",
+        "../node_modules/botbuilder-core/lib/turnContext.d.ts"
+      ],
+      "../node_modules/botbuilder-core/lib/userState.d.ts": [
+        "../node_modules/botbuilder-core/lib/botState.d.ts",
+        "../node_modules/botbuilder-core/lib/storage.d.ts",
+        "../node_modules/botbuilder-core/lib/turnContext.d.ts"
       ],
       "../node_modules/botbuilder-core/lib/index.d.ts": [
         "../node_modules/botframework-schema/lib/index.d.ts",
@@ -3690,6 +3219,951 @@
         "../node_modules/botbuilder-core/lib/userTokenProvider.d.ts",
         "../node_modules/botbuilder-core/lib/userTokenSettings.d.ts"
       ],
+      "../node_modules/adal-node/lib/adal.d.ts": [
+        "../node_modules/@types/node/http.d.ts"
+      ],
+      "../node_modules/@azure/ms-rest-js/es/lib/operationParameter.d.ts": [
+        "../node_modules/@azure/ms-rest-js/es/lib/queryCollectionFormat.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/serializer.d.ts"
+      ],
+      "../node_modules/@azure/ms-rest-js/es/lib/operationResponse.d.ts": [
+        "../node_modules/@azure/ms-rest-js/es/lib/serializer.d.ts"
+      ],
+      "../node_modules/@azure/ms-rest-js/es/lib/operationSpec.d.ts": [
+        "../node_modules/@azure/ms-rest-js/es/lib/operationParameter.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/operationResponse.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/serializer.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/webResource.d.ts"
+      ],
+      "../node_modules/@azure/ms-rest-js/es/lib/httpOperationResponse.d.ts": [
+        "../node_modules/@azure/ms-rest-js/es/lib/webResource.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/httpHeaders.d.ts",
+        "../node_modules/@types/node/ts3.6/index.d.ts"
+      ],
+      "../node_modules/@azure/ms-rest-js/es/lib/credentials/serviceClientCredentials.d.ts": [
+        "../node_modules/@azure/ms-rest-js/es/lib/webResource.d.ts"
+      ],
+      "../node_modules/@azure/ms-rest-js/es/lib/httpPipelineLogger.d.ts": [
+        "../node_modules/@azure/ms-rest-js/es/lib/httpPipelineLogLevel.d.ts"
+      ],
+      "../node_modules/@azure/ms-rest-js/es/lib/policies/requestPolicy.d.ts": [
+        "../node_modules/@azure/ms-rest-js/es/lib/httpOperationResponse.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/httpPipelineLogger.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/httpPipelineLogLevel.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/webResource.d.ts"
+      ],
+      "../node_modules/@azure/ms-rest-js/es/lib/httpClient.d.ts": [
+        "../node_modules/@azure/ms-rest-js/es/lib/policies/requestPolicy.d.ts"
+      ],
+      "../node_modules/@azure/ms-rest-js/es/lib/operationArguments.d.ts": [
+        "../node_modules/@azure/ms-rest-js/es/lib/webResource.d.ts"
+      ],
+      "../node_modules/@azure/ms-rest-js/es/lib/policies/deserializationPolicy.d.ts": [
+        "../node_modules/@azure/ms-rest-js/es/lib/httpOperationResponse.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/webResource.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/policies/requestPolicy.d.ts"
+      ],
+      "../node_modules/@azure/ms-rest-js/es/lib/restError.d.ts": [
+        "../node_modules/@azure/ms-rest-js/es/lib/httpOperationResponse.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/webResource.d.ts"
+      ],
+      "../node_modules/@azure/ms-rest-js/es/lib/util/utils.d.ts": [
+        "../node_modules/@azure/ms-rest-js/es/lib/httpOperationResponse.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/restError.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/webResource.d.ts"
+      ],
+      "../node_modules/@azure/ms-rest-js/es/lib/serviceClient.d.ts": [
+        "../node_modules/@azure/ms-rest-js/es/lib/credentials/serviceClientCredentials.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/httpClient.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/httpOperationResponse.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/httpPipelineLogger.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/operationArguments.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/operationParameter.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/operationSpec.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/policies/deserializationPolicy.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/policies/requestPolicy.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/serializer.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/webResource.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/operationResponse.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/util/utils.d.ts",
+        "../node_modules/@types/node/http.d.ts",
+        "../node_modules/@types/node/ts3.6/index.d.ts"
+      ],
+      "../node_modules/@azure/ms-rest-js/es/lib/webResource.d.ts": [
+        "../node_modules/@azure/ms-rest-js/es/lib/httpHeaders.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/operationSpec.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/serializer.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/httpOperationResponse.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/operationResponse.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/serviceClient.d.ts",
+        "../node_modules/@types/node/ts3.6/index.d.ts"
+      ],
+      "../node_modules/@types/tunnel/index.d.ts": [
+        "../node_modules/@types/node/http.d.ts",
+        "../node_modules/@types/node/ts3.6/index.d.ts"
+      ],
+      "../node_modules/@azure/ms-rest-js/es/lib/axiosHttpClient.d.ts": [
+        "../node_modules/@azure/ms-rest-js/es/lib/httpClient.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/httpHeaders.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/httpOperationResponse.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/webResource.d.ts",
+        "../node_modules/@types/tunnel/index.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/serviceClient.d.ts",
+        "../node_modules/@types/node/http.d.ts",
+        "../node_modules/@types/node/https.d.ts",
+        "../node_modules/axios/index.d.ts",
+        "../node_modules/@types/node/ts3.6/index.d.ts"
+      ],
+      "../node_modules/@azure/ms-rest-js/es/lib/defaultHttpClient.d.ts": [
+        "../node_modules/@azure/ms-rest-js/es/lib/axiosHttpClient.d.ts"
+      ],
+      "../node_modules/@azure/ms-rest-js/es/lib/policies/logPolicy.d.ts": [
+        "../node_modules/@azure/ms-rest-js/es/lib/httpOperationResponse.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/webResource.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/policies/requestPolicy.d.ts"
+      ],
+      "../node_modules/@azure/ms-rest-js/es/lib/policies/generateClientRequestIdPolicy.d.ts": [
+        "../node_modules/@azure/ms-rest-js/es/lib/httpOperationResponse.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/webResource.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/policies/requestPolicy.d.ts"
+      ],
+      "../node_modules/@azure/ms-rest-js/es/lib/policies/exponentialRetryPolicy.d.ts": [
+        "../node_modules/@azure/ms-rest-js/es/lib/httpOperationResponse.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/webResource.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/policies/requestPolicy.d.ts"
+      ],
+      "../node_modules/@azure/ms-rest-js/es/lib/policies/systemErrorRetryPolicy.d.ts": [
+        "../node_modules/@azure/ms-rest-js/es/lib/httpOperationResponse.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/webResource.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/policies/requestPolicy.d.ts"
+      ],
+      "../node_modules/@azure/ms-rest-js/es/lib/policies/throttlingRetryPolicy.d.ts": [
+        "../node_modules/@azure/ms-rest-js/es/lib/policies/requestPolicy.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/webResource.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/httpOperationResponse.d.ts"
+      ],
+      "../node_modules/@azure/ms-rest-js/es/lib/policies/proxyPolicy.d.ts": [
+        "../node_modules/@azure/ms-rest-js/es/lib/policies/requestPolicy.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/httpOperationResponse.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/serviceClient.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/webResource.d.ts"
+      ],
+      "../node_modules/@azure/ms-rest-js/es/lib/policies/redirectPolicy.d.ts": [
+        "../node_modules/@azure/ms-rest-js/es/lib/httpOperationResponse.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/webResource.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/policies/requestPolicy.d.ts"
+      ],
+      "../node_modules/@azure/ms-rest-js/es/lib/policies/signingPolicy.d.ts": [
+        "../node_modules/@azure/ms-rest-js/es/lib/credentials/serviceClientCredentials.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/httpOperationResponse.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/webResource.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/policies/requestPolicy.d.ts"
+      ],
+      "../node_modules/@azure/ms-rest-js/es/lib/policies/msRestUserAgentPolicy.d.ts": [
+        "../node_modules/@azure/ms-rest-js/es/lib/policies/userAgentPolicy.d.ts"
+      ],
+      "../node_modules/@azure/ms-rest-js/es/lib/policies/userAgentPolicy.d.ts": [
+        "../node_modules/@azure/ms-rest-js/es/lib/httpOperationResponse.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/webResource.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/policies/msRestUserAgentPolicy.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/policies/requestPolicy.d.ts"
+      ],
+      "../node_modules/@azure/ms-rest-js/es/lib/credentials/tokenCredentials.d.ts": [
+        "../node_modules/@azure/ms-rest-js/es/lib/webResource.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/credentials/serviceClientCredentials.d.ts"
+      ],
+      "../node_modules/@azure/ms-rest-js/es/lib/credentials/basicAuthenticationCredentials.d.ts": [
+        "../node_modules/@azure/ms-rest-js/es/lib/webResource.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/credentials/serviceClientCredentials.d.ts"
+      ],
+      "../node_modules/@azure/ms-rest-js/es/lib/credentials/apiKeyCredentials.d.ts": [
+        "../node_modules/@azure/ms-rest-js/es/lib/webResource.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/credentials/serviceClientCredentials.d.ts"
+      ],
+      "../node_modules/@azure/ms-rest-js/es/lib/credentials/topicCredentials.d.ts": [
+        "../node_modules/@azure/ms-rest-js/es/lib/credentials/apiKeyCredentials.d.ts"
+      ],
+      "../node_modules/@azure/ms-rest-js/es/lib/credentials/domainCredentials.d.ts": [
+        "../node_modules/@azure/ms-rest-js/es/lib/credentials/apiKeyCredentials.d.ts"
+      ],
+      "../node_modules/@azure/ms-rest-js/es/lib/msRest.d.ts": [
+        "../node_modules/@azure/ms-rest-js/es/lib/webResource.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/defaultHttpClient.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/httpClient.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/httpHeaders.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/httpOperationResponse.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/httpPipelineLogger.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/httpPipelineLogLevel.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/restError.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/operationArguments.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/operationParameter.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/operationResponse.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/operationSpec.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/serviceClient.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/queryCollectionFormat.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/util/constants.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/policies/logPolicy.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/policies/requestPolicy.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/policies/generateClientRequestIdPolicy.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/policies/exponentialRetryPolicy.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/policies/systemErrorRetryPolicy.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/policies/throttlingRetryPolicy.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/policies/proxyPolicy.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/policies/redirectPolicy.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/policies/signingPolicy.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/policies/userAgentPolicy.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/policies/deserializationPolicy.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/serializer.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/util/utils.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/url.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/credentials/tokenCredentials.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/credentials/basicAuthenticationCredentials.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/credentials/apiKeyCredentials.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/credentials/serviceClientCredentials.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/credentials/topicCredentials.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/credentials/domainCredentials.d.ts",
+        "../node_modules/@azure/ms-rest-js/es/lib/credentials/credentials.d.ts"
+      ],
+      "../node_modules/botframework-connector/lib/auth/appCredentials.d.ts": [
+        "../node_modules/@azure/ms-rest-js/es/lib/msRest.d.ts",
+        "../node_modules/adal-node/lib/adal.d.ts"
+      ],
+      "../node_modules/botframework-connector/lib/auth/microsoftAppCredentials.d.ts": [
+        "../node_modules/adal-node/lib/adal.d.ts",
+        "../node_modules/botframework-connector/lib/auth/appCredentials.d.ts"
+      ],
+      "../node_modules/botframework-connector/lib/auth/certificateAppCredentials.d.ts": [
+        "../node_modules/adal-node/lib/adal.d.ts",
+        "../node_modules/botframework-connector/lib/auth/appCredentials.d.ts"
+      ],
+      "../node_modules/botframework-connector/lib/auth/authenticationConfiguration.d.ts": [
+        "../node_modules/botframework-connector/lib/auth/claimsIdentity.d.ts"
+      ],
+      "../node_modules/botframework-connector/lib/auth/jwtTokenValidation.d.ts": [
+        "../node_modules/botframework-schema/lib/index.d.ts",
+        "../node_modules/botframework-connector/lib/auth/authenticationConfiguration.d.ts",
+        "../node_modules/botframework-connector/lib/auth/claimsIdentity.d.ts",
+        "../node_modules/botframework-connector/lib/auth/credentialProvider.d.ts"
+      ],
+      "../node_modules/@types/jsonwebtoken/index.d.ts": [
+        "../node_modules/@types/node/ts3.6/index.d.ts"
+      ],
+      "../node_modules/botframework-connector/lib/auth/channelValidation.d.ts": [
+        "../node_modules/@types/jsonwebtoken/index.d.ts",
+        "../node_modules/botframework-connector/lib/auth/authenticationConfiguration.d.ts",
+        "../node_modules/botframework-connector/lib/auth/claimsIdentity.d.ts",
+        "../node_modules/botframework-connector/lib/auth/credentialProvider.d.ts"
+      ],
+      "../node_modules/botframework-connector/lib/auth/governmentChannelValidation.d.ts": [
+        "../node_modules/@types/jsonwebtoken/index.d.ts",
+        "../node_modules/botframework-connector/lib/auth/authenticationConfiguration.d.ts",
+        "../node_modules/botframework-connector/lib/auth/claimsIdentity.d.ts",
+        "../node_modules/botframework-connector/lib/auth/credentialProvider.d.ts"
+      ],
+      "../node_modules/botframework-connector/lib/auth/enterpriseChannelValidation.d.ts": [
+        "../node_modules/@types/jsonwebtoken/index.d.ts",
+        "../node_modules/botframework-connector/lib/auth/authenticationConfiguration.d.ts",
+        "../node_modules/botframework-connector/lib/auth/claimsIdentity.d.ts",
+        "../node_modules/botframework-connector/lib/auth/credentialProvider.d.ts"
+      ],
+      "../node_modules/botframework-connector/lib/auth/emulatorValidation.d.ts": [
+        "../node_modules/@types/jsonwebtoken/index.d.ts",
+        "../node_modules/botframework-connector/lib/auth/claimsIdentity.d.ts",
+        "../node_modules/botframework-connector/lib/auth/authenticationConfiguration.d.ts",
+        "../node_modules/botframework-connector/lib/auth/credentialProvider.d.ts"
+      ],
+      "../node_modules/botframework-connector/lib/auth/authenticationError.d.ts": [
+        "../node_modules/botframework-schema/lib/index.d.ts"
+      ],
+      "../node_modules/botframework-connector/lib/auth/skillValidation.d.ts": [
+        "../node_modules/botframework-connector/lib/auth/authenticationConfiguration.d.ts",
+        "../node_modules/botframework-connector/lib/auth/claimsIdentity.d.ts",
+        "../node_modules/botframework-connector/lib/auth/credentialProvider.d.ts"
+      ],
+      "../node_modules/botframework-connector/lib/auth/index.d.ts": [
+        "../node_modules/botframework-connector/lib/auth/credentialProvider.d.ts",
+        "../node_modules/botframework-connector/lib/auth/microsoftAppCredentials.d.ts",
+        "../node_modules/botframework-connector/lib/auth/appCredentials.d.ts",
+        "../node_modules/botframework-connector/lib/auth/certificateAppCredentials.d.ts",
+        "../node_modules/botframework-connector/lib/auth/jwtTokenValidation.d.ts",
+        "../node_modules/botframework-connector/lib/auth/channelValidation.d.ts",
+        "../node_modules/botframework-connector/lib/auth/governmentChannelValidation.d.ts",
+        "../node_modules/botframework-connector/lib/auth/governmentConstants.d.ts",
+        "../node_modules/botframework-connector/lib/auth/enterpriseChannelValidation.d.ts",
+        "../node_modules/botframework-connector/lib/auth/emulatorValidation.d.ts",
+        "../node_modules/botframework-connector/lib/auth/endorsementsValidator.d.ts",
+        "../node_modules/botframework-connector/lib/auth/claimsIdentity.d.ts",
+        "../node_modules/botframework-connector/lib/auth/authenticationConfiguration.d.ts",
+        "../node_modules/botframework-connector/lib/auth/authenticationConstants.d.ts",
+        "../node_modules/botframework-connector/lib/auth/authenticationError.d.ts",
+        "../node_modules/botframework-connector/lib/auth/skillValidation.d.ts"
+      ],
+      "../node_modules/botframework-connector/lib/teams/models/index.d.ts": [
+        "../node_modules/@azure/ms-rest-js/es/lib/msRest.d.ts",
+        "../node_modules/botframework-schema/lib/index.d.ts"
+      ],
+      "../node_modules/botframework-connector/lib/teams/models/mappers.d.ts": [
+        "../node_modules/@azure/ms-rest-js/es/lib/msRest.d.ts"
+      ],
+      "../node_modules/botframework-connector/lib/teams/operations/teams.d.ts": [
+        "../node_modules/@azure/ms-rest-js/es/lib/msRest.d.ts",
+        "../node_modules/botframework-connector/lib/teams/models/index.d.ts",
+        "../node_modules/botframework-connector/lib/teams/index.d.ts",
+        "../node_modules/botframework-schema/lib/index.d.ts"
+      ],
+      "../node_modules/botframework-connector/lib/teams/operations/index.d.ts": [
+        "../node_modules/botframework-connector/lib/teams/operations/teams.d.ts"
+      ],
+      "../node_modules/botframework-connector/lib/teams/teamsConnectorClientContext.d.ts": [
+        "../node_modules/@azure/ms-rest-js/es/lib/msRest.d.ts",
+        "../node_modules/botframework-connector/lib/teams/models/index.d.ts"
+      ],
+      "../node_modules/botframework-connector/lib/teams/teamsConnectorClient.d.ts": [
+        "../node_modules/@azure/ms-rest-js/es/lib/msRest.d.ts",
+        "../node_modules/botframework-connector/lib/teams/models/index.d.ts",
+        "../node_modules/botframework-connector/lib/teams/models/mappers.d.ts",
+        "../node_modules/botframework-connector/lib/teams/operations/index.d.ts",
+        "../node_modules/botframework-connector/lib/teams/teamsConnectorClientContext.d.ts"
+      ],
+      "../node_modules/botframework-connector/lib/teams/index.d.ts": [
+        "../node_modules/botframework-connector/lib/teams/teamsConnectorClient.d.ts",
+        "../node_modules/botframework-connector/lib/teams/teamsConnectorClientContext.d.ts",
+        "../node_modules/botframework-connector/lib/teams/models/index.d.ts"
+      ],
+      "../node_modules/botframework-connector/lib/tokenApi/models/index.d.ts": [
+        "../node_modules/@azure/ms-rest-js/es/lib/msRest.d.ts",
+        "../node_modules/botframework-schema/lib/index.d.ts"
+      ],
+      "../node_modules/botframework-connector/lib/connectorApi/models/index.d.ts": [
+        "../node_modules/@azure/ms-rest-js/es/lib/msRest.d.ts",
+        "../node_modules/botframework-schema/lib/index.d.ts",
+        "../node_modules/@types/node/ts3.6/index.d.ts"
+      ],
+      "../node_modules/botframework-connector/lib/connectorApi/connectorClientContext.d.ts": [
+        "../node_modules/@azure/ms-rest-js/es/lib/msRest.d.ts",
+        "../node_modules/botframework-connector/lib/connectorApi/models/index.d.ts"
+      ],
+      "../node_modules/botframework-connector/lib/connectorApi/models/mappers.d.ts": [
+        "../node_modules/@azure/ms-rest-js/es/lib/msRest.d.ts"
+      ],
+      "../node_modules/botframework-connector/lib/connectorApi/operations/attachments.d.ts": [
+        "../node_modules/@azure/ms-rest-js/es/lib/msRest.d.ts",
+        "../node_modules/botframework-connector/lib/connectorApi/connectorClientContext.d.ts",
+        "../node_modules/botframework-connector/lib/connectorApi/models/index.d.ts"
+      ],
+      "../node_modules/botframework-connector/lib/connectorApi/operations/conversations.d.ts": [
+        "../node_modules/@azure/ms-rest-js/es/lib/msRest.d.ts",
+        "../node_modules/botframework-connector/lib/connectorApi/connectorClientContext.d.ts",
+        "../node_modules/botframework-connector/lib/connectorApi/models/index.d.ts"
+      ],
+      "../node_modules/botframework-connector/lib/connectorApi/operations/index.d.ts": [
+        "../node_modules/botframework-connector/lib/connectorApi/operations/attachments.d.ts",
+        "../node_modules/botframework-connector/lib/connectorApi/operations/conversations.d.ts"
+      ],
+      "../node_modules/botframework-connector/lib/connectorApi/connectorClient.d.ts": [
+        "../node_modules/@azure/ms-rest-js/es/lib/msRest.d.ts",
+        "../node_modules/botframework-connector/lib/connectorApi/connectorClientContext.d.ts",
+        "../node_modules/botframework-connector/lib/connectorApi/models/index.d.ts",
+        "../node_modules/botframework-connector/lib/connectorApi/models/mappers.d.ts",
+        "../node_modules/botframework-connector/lib/connectorApi/operations/index.d.ts"
+      ],
+      "../node_modules/botframework-connector/lib/emulatorApiClient.d.ts": [
+        "../node_modules/botframework-connector/lib/auth/appCredentials.d.ts"
+      ],
+      "../node_modules/botframework-connector/lib/tokenApi/models/mappers.d.ts": [
+        "../node_modules/@azure/ms-rest-js/es/lib/msRest.d.ts"
+      ],
+      "../node_modules/botframework-connector/lib/tokenApi/tokenApiClientContext.d.ts": [
+        "../node_modules/@azure/ms-rest-js/es/lib/msRest.d.ts",
+        "../node_modules/botframework-connector/lib/tokenApi/models/index.d.ts"
+      ],
+      "../node_modules/botframework-connector/lib/tokenApi/operations/botSignIn.d.ts": [
+        "../node_modules/@azure/ms-rest-js/es/lib/msRest.d.ts",
+        "../node_modules/botframework-connector/lib/tokenApi/models/index.d.ts",
+        "../node_modules/botframework-connector/lib/tokenApi/tokenApiClientContext.d.ts",
+        "../node_modules/botframework-schema/lib/index.d.ts"
+      ],
+      "../node_modules/botframework-connector/lib/tokenApi/operations/userToken.d.ts": [
+        "../node_modules/@azure/ms-rest-js/es/lib/msRest.d.ts",
+        "../node_modules/botframework-connector/lib/tokenApi/models/index.d.ts",
+        "../node_modules/botframework-connector/lib/tokenApi/tokenApiClientContext.d.ts",
+        "../node_modules/botframework-schema/lib/index.d.ts"
+      ],
+      "../node_modules/botframework-connector/lib/tokenApi/operations/index.d.ts": [
+        "../node_modules/botframework-connector/lib/tokenApi/operations/botSignIn.d.ts",
+        "../node_modules/botframework-connector/lib/tokenApi/operations/userToken.d.ts"
+      ],
+      "../node_modules/botframework-connector/lib/tokenApi/tokenApiClient.d.ts": [
+        "../node_modules/@azure/ms-rest-js/es/lib/msRest.d.ts",
+        "../node_modules/botframework-connector/lib/tokenApi/models/index.d.ts",
+        "../node_modules/botframework-connector/lib/tokenApi/models/mappers.d.ts",
+        "../node_modules/botframework-connector/lib/tokenApi/operations/index.d.ts",
+        "../node_modules/botframework-connector/lib/tokenApi/tokenApiClientContext.d.ts"
+      ],
+      "../node_modules/botframework-connector/lib/index.d.ts": [
+        "../node_modules/botframework-connector/lib/auth/index.d.ts",
+        "../node_modules/botframework-connector/lib/teams/index.d.ts",
+        "../node_modules/botframework-connector/lib/tokenApi/models/index.d.ts",
+        "../node_modules/botframework-connector/lib/connectorApi/connectorClient.d.ts",
+        "../node_modules/botframework-connector/lib/connectorApi/models/index.d.ts",
+        "../node_modules/botframework-connector/lib/emulatorApiClient.d.ts",
+        "../node_modules/botframework-schema/lib/index.d.ts",
+        "../node_modules/botframework-connector/lib/tokenApi/tokenApiClient.d.ts"
+      ],
+      "../node_modules/botframework-streaming/lib/subscribableStream.d.ts": [
+        "../node_modules/@types/node/stream.d.ts",
+        "../node_modules/@types/node/ts3.6/index.d.ts"
+      ],
+      "../node_modules/botframework-streaming/lib/payloads/headerSerializer.d.ts": [
+        "../node_modules/botframework-streaming/lib/interfaces/IHeader.d.ts",
+        "../node_modules/botframework-streaming/lib/interfaces/INodeBuffer.d.ts"
+      ],
+      "../node_modules/botframework-streaming/lib/payloads/streamManager.d.ts": [
+        "../node_modules/botframework-streaming/lib/interfaces/IHeader.d.ts",
+        "../node_modules/botframework-streaming/lib/subscribableStream.d.ts",
+        "../node_modules/botframework-streaming/lib/assemblers/payloadAssembler.d.ts"
+      ],
+      "../node_modules/botframework-streaming/lib/payloads/payloadAssemblerManager.d.ts": [
+        "../node_modules/botframework-streaming/lib/subscribableStream.d.ts",
+        "../node_modules/botframework-streaming/lib/payloads/streamManager.d.ts",
+        "../node_modules/botframework-streaming/lib/interfaces/IHeader.d.ts"
+      ],
+      "../node_modules/botframework-streaming/lib/interfaces/IReceiveResponse.d.ts": [
+        "../node_modules/botframework-streaming/lib/contentStream.d.ts"
+      ],
+      "../node_modules/botframework-streaming/lib/payloads/requestManager.d.ts": [
+        "../node_modules/botframework-streaming/lib/interfaces/IReceiveResponse.d.ts"
+      ],
+      "../node_modules/botframework-streaming/lib/payloadTransport/transportDisconnectedEventHandler.d.ts": [
+        "../node_modules/botframework-streaming/lib/payloadTransport/transportDisconnectedEvent.d.ts"
+      ],
+      "../node_modules/botframework-streaming/lib/interfaces/ITransportSender.d.ts": [
+        "../node_modules/botframework-streaming/lib/interfaces/ITransport.d.ts",
+        "../node_modules/botframework-streaming/lib/interfaces/INodeBuffer.d.ts"
+      ],
+      "../node_modules/botframework-streaming/lib/payloadTransport/payloadSender.d.ts": [
+        "../node_modules/botframework-streaming/lib/subscribableStream.d.ts",
+        "../node_modules/botframework-streaming/lib/payloadTransport/transportDisconnectedEvent.d.ts",
+        "../node_modules/botframework-streaming/lib/payloadTransport/transportDisconnectedEventHandler.d.ts",
+        "../node_modules/botframework-streaming/lib/interfaces/ITransportSender.d.ts",
+        "../node_modules/botframework-streaming/lib/interfaces/IHeader.d.ts"
+      ],
+      "../node_modules/botframework-streaming/lib/httpContentStream.d.ts": [
+        "../node_modules/botframework-streaming/lib/subscribableStream.d.ts",
+        "../node_modules/botframework-streaming/lib/interfaces/IHttpContentHeaders.d.ts"
+      ],
+      "../node_modules/botframework-streaming/lib/streamingRequest.d.ts": [
+        "../node_modules/botframework-streaming/lib/httpContentStream.d.ts"
+      ],
+      "../node_modules/botframework-streaming/lib/streamingResponse.d.ts": [
+        "../node_modules/botframework-streaming/lib/httpContentStream.d.ts"
+      ],
+      "../node_modules/botframework-streaming/lib/payloads/sendOperations.d.ts": [
+        "../node_modules/botframework-streaming/lib/payloadTransport/payloadSender.d.ts",
+        "../node_modules/botframework-streaming/lib/streamingRequest.d.ts",
+        "../node_modules/botframework-streaming/lib/streamingResponse.d.ts"
+      ],
+      "../node_modules/botframework-streaming/lib/payloads/index.d.ts": [
+        "../node_modules/botframework-streaming/lib/payloads/headerSerializer.d.ts",
+        "../node_modules/botframework-streaming/lib/payloads/streamManager.d.ts",
+        "../node_modules/botframework-streaming/lib/payloads/payloadAssemblerManager.d.ts",
+        "../node_modules/botframework-streaming/lib/payloads/payloadTypes.d.ts",
+        "../node_modules/botframework-streaming/lib/payloads/requestManager.d.ts",
+        "../node_modules/botframework-streaming/lib/payloads/sendOperations.d.ts"
+      ],
+      "../node_modules/botframework-streaming/lib/interfaces/IAssemblerParams.d.ts": [
+        "../node_modules/botframework-streaming/lib/interfaces/IHeader.d.ts"
+      ],
+      "../node_modules/botframework-streaming/lib/assemblers/payloadAssembler.d.ts": [
+        "../node_modules/botframework-streaming/lib/subscribableStream.d.ts",
+        "../node_modules/botframework-streaming/lib/payloads/index.d.ts",
+        "../node_modules/botframework-streaming/lib/interfaces/IAssemblerParams.d.ts",
+        "../node_modules/botframework-streaming/lib/interfaces/IHeader.d.ts"
+      ],
+      "../node_modules/botframework-streaming/lib/assemblers/index.d.ts": [
+        "../node_modules/botframework-streaming/lib/assemblers/payloadAssembler.d.ts"
+      ],
+      "../node_modules/botframework-streaming/lib/contentStream.d.ts": [
+        "../node_modules/botframework-streaming/lib/subscribableStream.d.ts",
+        "../node_modules/botframework-streaming/lib/assemblers/index.d.ts"
+      ],
+      "../node_modules/botframework-streaming/lib/interfaces/INodeServer.d.ts": [
+        "../node_modules/botframework-streaming/lib/interfaces/index.d.ts"
+      ],
+      "../node_modules/botframework-streaming/lib/interfaces/INodeSocket.d.ts": [
+        "../node_modules/botframework-streaming/lib/interfaces/INodeBuffer.d.ts",
+        "../node_modules/botframework-streaming/lib/interfaces/IEventEmitter.d.ts",
+        "../node_modules/@types/node/ts3.6/index.d.ts"
+      ],
+      "../node_modules/botframework-streaming/lib/interfaces/IReceiveRequest.d.ts": [
+        "../node_modules/botframework-streaming/lib/contentStream.d.ts"
+      ],
+      "../node_modules/botframework-streaming/lib/interfaces/ISocket.d.ts": [
+        "../node_modules/botframework-streaming/lib/interfaces/INodeBuffer.d.ts"
+      ],
+      "../node_modules/botframework-streaming/lib/interfaces/IStreamingTransportClient.d.ts": [
+        "../node_modules/botframework-streaming/lib/interfaces/IReceiveResponse.d.ts",
+        "../node_modules/botframework-streaming/lib/streamingRequest.d.ts"
+      ],
+      "../node_modules/botframework-streaming/lib/interfaces/IStreamingTransportServer.d.ts": [
+        "../node_modules/botframework-streaming/lib/interfaces/IReceiveResponse.d.ts",
+        "../node_modules/botframework-streaming/lib/streamingRequest.d.ts"
+      ],
+      "../node_modules/botframework-streaming/lib/interfaces/index.d.ts": [
+        "../node_modules/botframework-streaming/lib/interfaces/IBrowserFileReader.d.ts",
+        "../node_modules/botframework-streaming/lib/interfaces/IBrowserWebSocket.d.ts",
+        "../node_modules/botframework-streaming/lib/interfaces/IEventEmitter.d.ts",
+        "../node_modules/botframework-streaming/lib/interfaces/INodeBuffer.d.ts",
+        "../node_modules/botframework-streaming/lib/interfaces/INodeIncomingMessage.d.ts",
+        "../node_modules/botframework-streaming/lib/interfaces/INodeServer.d.ts",
+        "../node_modules/botframework-streaming/lib/interfaces/INodeSocket.d.ts",
+        "../node_modules/botframework-streaming/lib/interfaces/IReceiveRequest.d.ts",
+        "../node_modules/botframework-streaming/lib/interfaces/IReceiveResponse.d.ts",
+        "../node_modules/botframework-streaming/lib/interfaces/ISocket.d.ts",
+        "../node_modules/botframework-streaming/lib/interfaces/IStreamingTransportClient.d.ts",
+        "../node_modules/botframework-streaming/lib/interfaces/IStreamingTransportServer.d.ts"
+      ],
+      "../node_modules/botframework-streaming/lib/requestHandler.d.ts": [
+        "../node_modules/botframework-streaming/lib/interfaces/IReceiveRequest.d.ts",
+        "../node_modules/botframework-streaming/lib/streamingResponse.d.ts"
+      ],
+      "../node_modules/botframework-streaming/lib/namedPipe/namedPipeClient.d.ts": [
+        "../node_modules/botframework-streaming/lib/requestHandler.d.ts",
+        "../node_modules/botframework-streaming/lib/streamingRequest.d.ts",
+        "../node_modules/botframework-streaming/lib/interfaces/index.d.ts"
+      ],
+      "../node_modules/botframework-streaming/lib/namedPipe/namedPipeServer.d.ts": [
+        "../node_modules/botframework-streaming/lib/requestHandler.d.ts",
+        "../node_modules/botframework-streaming/lib/streamingRequest.d.ts",
+        "../node_modules/botframework-streaming/lib/interfaces/index.d.ts"
+      ],
+      "../node_modules/botframework-streaming/lib/interfaces/ITransportReceiver.d.ts": [
+        "../node_modules/botframework-streaming/lib/interfaces/ITransport.d.ts",
+        "../node_modules/botframework-streaming/lib/interfaces/INodeBuffer.d.ts"
+      ],
+      "../node_modules/botframework-streaming/lib/namedPipe/namedPipeTransport.d.ts": [
+        "../node_modules/botframework-streaming/lib/interfaces/INodeBuffer.d.ts",
+        "../node_modules/botframework-streaming/lib/interfaces/INodeSocket.d.ts",
+        "../node_modules/botframework-streaming/lib/interfaces/ITransportSender.d.ts",
+        "../node_modules/botframework-streaming/lib/interfaces/ITransportReceiver.d.ts"
+      ],
+      "../node_modules/botframework-streaming/lib/namedPipe/index.d.ts": [
+        "../node_modules/botframework-streaming/lib/namedPipe/namedPipeClient.d.ts",
+        "../node_modules/botframework-streaming/lib/namedPipe/namedPipeServer.d.ts",
+        "../node_modules/botframework-streaming/lib/namedPipe/namedPipeTransport.d.ts"
+      ],
+      "../node_modules/@types/ws/index.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/http.d.ts",
+        "../node_modules/@types/node/https.d.ts",
+        "../node_modules/@types/node/net.d.ts",
+        "../node_modules/@types/node/url.d.ts",
+        "../node_modules/@types/node/zlib.d.ts",
+        "../node_modules/@types/node/ts3.6/index.d.ts"
+      ],
+      "../node_modules/botframework-streaming/lib/webSocket/nodeWebSocket.d.ts": [
+        "../node_modules/@types/ws/index.d.ts",
+        "../node_modules/botframework-streaming/lib/interfaces/index.d.ts"
+      ],
+      "../node_modules/botframework-streaming/lib/webSocket/factories/nodeWebSocketFactoryBase.d.ts": [
+        "../node_modules/botframework-streaming/lib/interfaces/index.d.ts"
+      ],
+      "../node_modules/botframework-streaming/lib/webSocket/factories/nodeWebSocketFactory.d.ts": [
+        "../node_modules/botframework-streaming/lib/interfaces/index.d.ts",
+        "../node_modules/botframework-streaming/lib/webSocket/nodeWebSocket.d.ts",
+        "../node_modules/botframework-streaming/lib/webSocket/factories/nodeWebSocketFactoryBase.d.ts"
+      ],
+      "../node_modules/botframework-streaming/lib/webSocket/factories/index.d.ts": [
+        "../node_modules/botframework-streaming/lib/webSocket/factories/nodeWebSocketFactory.d.ts",
+        "../node_modules/botframework-streaming/lib/webSocket/factories/nodeWebSocketFactoryBase.d.ts"
+      ],
+      "../node_modules/botframework-streaming/lib/webSocket/nodeWebSocketClient.d.ts": [
+        "../node_modules/botframework-streaming/lib/streamingRequest.d.ts",
+        "../node_modules/botframework-streaming/lib/interfaces/index.d.ts"
+      ],
+      "../node_modules/botframework-streaming/lib/webSocket/webSocketServer.d.ts": [
+        "../node_modules/botframework-streaming/lib/requestHandler.d.ts",
+        "../node_modules/botframework-streaming/lib/streamingRequest.d.ts",
+        "../node_modules/botframework-streaming/lib/interfaces/ISocket.d.ts",
+        "../node_modules/botframework-streaming/lib/interfaces/index.d.ts"
+      ],
+      "../node_modules/botframework-streaming/lib/webSocket/webSocketTransport.d.ts": [
+        "../node_modules/botframework-streaming/lib/interfaces/INodeBuffer.d.ts",
+        "../node_modules/botframework-streaming/lib/interfaces/ISocket.d.ts",
+        "../node_modules/botframework-streaming/lib/interfaces/ITransportSender.d.ts",
+        "../node_modules/botframework-streaming/lib/interfaces/ITransportReceiver.d.ts"
+      ],
+      "../node_modules/botframework-streaming/lib/webSocket/index.d.ts": [
+        "../node_modules/botframework-streaming/lib/webSocket/factories/index.d.ts",
+        "../node_modules/botframework-streaming/lib/webSocket/nodeWebSocket.d.ts",
+        "../node_modules/botframework-streaming/lib/webSocket/nodeWebSocketClient.d.ts",
+        "../node_modules/botframework-streaming/lib/webSocket/webSocketServer.d.ts",
+        "../node_modules/botframework-streaming/lib/webSocket/webSocketTransport.d.ts"
+      ],
+      "../node_modules/botframework-streaming/lib/index.d.ts": [
+        "../node_modules/botframework-streaming/lib/contentStream.d.ts",
+        "../node_modules/botframework-streaming/lib/httpContentStream.d.ts",
+        "../node_modules/botframework-streaming/lib/interfaces/index.d.ts",
+        "../node_modules/botframework-streaming/lib/namedPipe/index.d.ts",
+        "../node_modules/botframework-streaming/lib/requestHandler.d.ts",
+        "../node_modules/botframework-streaming/lib/streamingRequest.d.ts",
+        "../node_modules/botframework-streaming/lib/streamingResponse.d.ts",
+        "../node_modules/botframework-streaming/lib/subscribableStream.d.ts",
+        "../node_modules/botframework-streaming/lib/webSocket/index.d.ts"
+      ],
+      "../node_modules/botbuilder/lib/interfaces/connectorClientBuilder.d.ts": [
+        "../node_modules/botframework-connector/lib/index.d.ts"
+      ],
+      "../node_modules/botbuilder/lib/interfaces/index.d.ts": [
+        "../node_modules/botbuilder/lib/interfaces/connectorClientBuilder.d.ts",
+        "../node_modules/botbuilder/lib/interfaces/webRequest.d.ts",
+        "../node_modules/botbuilder/lib/interfaces/webResponse.d.ts"
+      ],
+      "../node_modules/botbuilder/lib/botFrameworkAdapter.d.ts": [
+        "../node_modules/botbuilder-core/lib/index.d.ts",
+        "../node_modules/botframework-connector/lib/index.d.ts",
+        "../node_modules/botframework-streaming/lib/index.d.ts",
+        "../node_modules/botbuilder/lib/interfaces/index.d.ts"
+      ],
+      "../node_modules/botbuilder/lib/botFrameworkHttpClient.d.ts": [
+        "../node_modules/botbuilder-core/lib/index.d.ts",
+        "../node_modules/botframework-connector/lib/index.d.ts"
+      ],
+      "../node_modules/botbuilder/lib/channelServiceHandler.d.ts": [
+        "../node_modules/botbuilder-core/lib/index.d.ts",
+        "../node_modules/botframework-connector/lib/index.d.ts"
+      ],
+      "../node_modules/botbuilder/lib/channelServiceRoutes.d.ts": [
+        "../node_modules/botbuilder/lib/channelServiceHandler.d.ts",
+        "../node_modules/botbuilder/lib/interfaces/index.d.ts"
+      ],
+      "../node_modules/botbuilder/lib/fileTranscriptStore.d.ts": [
+        "../node_modules/botbuilder-core/lib/index.d.ts"
+      ],
+      "../node_modules/botbuilder/lib/eventFactory.d.ts": [
+        "../node_modules/botbuilder-core/lib/index.d.ts",
+        "../node_modules/botframework-schema/lib/index.d.ts"
+      ],
+      "../node_modules/botbuilder/lib/inspectionMiddleware.d.ts": [
+        "../node_modules/botframework-connector/lib/index.d.ts",
+        "../node_modules/botbuilder-core/lib/index.d.ts"
+      ],
+      "../node_modules/botbuilder/lib/skills/skillHandler.d.ts": [
+        "../node_modules/botbuilder-core/lib/index.d.ts",
+        "../node_modules/botframework-connector/lib/index.d.ts",
+        "../node_modules/botbuilder/lib/channelServiceHandler.d.ts"
+      ],
+      "../node_modules/botbuilder/lib/skills/skillHttpClient.d.ts": [
+        "../node_modules/botbuilder-core/lib/index.d.ts",
+        "../node_modules/botframework-connector/lib/index.d.ts",
+        "../node_modules/botbuilder/lib/botFrameworkHttpClient.d.ts"
+      ],
+      "../node_modules/botbuilder/lib/skills/index.d.ts": [
+        "../node_modules/botbuilder/lib/skills/skillHandler.d.ts",
+        "../node_modules/botbuilder/lib/skills/skillHttpClient.d.ts"
+      ],
+      "../node_modules/botbuilder/lib/statusCodeError.d.ts": [
+        "../node_modules/botbuilder-core/lib/index.d.ts"
+      ],
+      "../node_modules/botbuilder/lib/streaming/streamingHttpClient.d.ts": [
+        "../node_modules/@azure/ms-rest-js/es/lib/msRest.d.ts",
+        "../node_modules/botframework-streaming/lib/index.d.ts"
+      ],
+      "../node_modules/botbuilder/lib/streaming/tokenResolver.d.ts": [
+        "../node_modules/botbuilder/lib/botFrameworkAdapter.d.ts",
+        "../node_modules/botbuilder-core/lib/index.d.ts"
+      ],
+      "../node_modules/botbuilder/lib/streaming/index.d.ts": [
+        "../node_modules/botbuilder/lib/streaming/constants.d.ts",
+        "../node_modules/botbuilder/lib/streaming/streamingHttpClient.d.ts",
+        "../node_modules/botbuilder/lib/streaming/tokenResolver.d.ts"
+      ],
+      "../node_modules/botbuilder/lib/teamsActivityHandler.d.ts": [
+        "../node_modules/botbuilder-core/lib/index.d.ts"
+      ],
+      "../node_modules/botbuilder/lib/teamsActivityHelpers.d.ts": [
+        "../node_modules/botbuilder-core/lib/index.d.ts"
+      ],
+      "../node_modules/botbuilder/lib/teamsInfo.d.ts": [
+        "../node_modules/botbuilder-core/lib/index.d.ts"
+      ],
+      "../node_modules/botbuilder/lib/index.d.ts": [
+        "../node_modules/botbuilder/lib/botFrameworkAdapter.d.ts",
+        "../node_modules/botbuilder/lib/botFrameworkHttpClient.d.ts",
+        "../node_modules/botbuilder/lib/channelServiceHandler.d.ts",
+        "../node_modules/botbuilder/lib/channelServiceRoutes.d.ts",
+        "../node_modules/botbuilder/lib/fileTranscriptStore.d.ts",
+        "../node_modules/botbuilder/lib/handoffEventNames.d.ts",
+        "../node_modules/botbuilder/lib/eventFactory.d.ts",
+        "../node_modules/botbuilder/lib/inspectionMiddleware.d.ts",
+        "../node_modules/botbuilder/lib/interfaces/index.d.ts",
+        "../node_modules/botbuilder/lib/skills/index.d.ts",
+        "../node_modules/botbuilder/lib/statusCodeError.d.ts",
+        "../node_modules/botbuilder/lib/streaming/index.d.ts",
+        "../node_modules/botbuilder/lib/teamsActivityHandler.d.ts",
+        "../node_modules/botbuilder/lib/teamsActivityHelpers.d.ts",
+        "../node_modules/botbuilder/lib/teamsInfo.d.ts",
+        "../node_modules/botbuilder-core/lib/index.d.ts"
+      ],
+      "../node_modules/botbuilder-dialogs/lib/beginSkillDialogOptions.d.ts": [
+        "../node_modules/botbuilder-core/lib/index.d.ts"
+      ],
+      "../node_modules/botbuilder-dialogs/lib/choices/channel.d.ts": [
+        "../node_modules/botbuilder-core/lib/index.d.ts"
+      ],
+      "../node_modules/botbuilder-dialogs/lib/choices/findValues.d.ts": [
+        "../node_modules/botbuilder-dialogs/lib/choices/modelResult.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/choices/tokenizer.d.ts"
+      ],
+      "../node_modules/botbuilder-dialogs/lib/choices/findChoices.d.ts": [
+        "../node_modules/botbuilder-core/lib/index.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/choices/findValues.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/choices/modelResult.d.ts"
+      ],
+      "../node_modules/botbuilder-dialogs/lib/choices/choiceFactory.d.ts": [
+        "../node_modules/botbuilder-core/lib/index.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/choices/findChoices.d.ts"
+      ],
+      "../node_modules/botbuilder-dialogs/lib/choices/recognizeChoices.d.ts": [
+        "../node_modules/botbuilder-dialogs/lib/choices/findChoices.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/choices/modelResult.d.ts"
+      ],
+      "../node_modules/botbuilder-dialogs/lib/choices/index.d.ts": [
+        "../node_modules/botbuilder-dialogs/lib/choices/channel.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/choices/choiceFactory.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/choices/findChoices.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/choices/findValues.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/choices/modelResult.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/choices/recognizeChoices.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/choices/tokenizer.d.ts"
+      ],
+      "../node_modules/botbuilder-dialogs/lib/dialogSet.d.ts": [
+        "../node_modules/botbuilder-core/lib/index.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/dialog.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/dialogContext.d.ts"
+      ],
+      "../node_modules/botbuilder-dialogs/lib/prompts/prompt.d.ts": [
+        "../node_modules/botbuilder-core/lib/index.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/choices/index.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/dialog.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/dialogContext.d.ts"
+      ],
+      "../node_modules/botbuilder-dialogs/lib/prompts/activityPrompt.d.ts": [
+        "../node_modules/botbuilder-core/lib/index.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/dialog.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/dialogContext.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/prompts/prompt.d.ts"
+      ],
+      "../node_modules/botbuilder-dialogs/lib/prompts/attachmentPrompt.d.ts": [
+        "../node_modules/botbuilder-core/lib/index.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/prompts/prompt.d.ts"
+      ],
+      "../node_modules/botbuilder-dialogs/lib/prompts/choicePrompt.d.ts": [
+        "../node_modules/botbuilder-core/lib/index.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/choices/index.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/prompts/prompt.d.ts"
+      ],
+      "../node_modules/botbuilder-dialogs/lib/prompts/confirmPrompt.d.ts": [
+        "../node_modules/botbuilder-core/lib/index.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/choices/index.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/prompts/prompt.d.ts"
+      ],
+      "../node_modules/botbuilder-dialogs/lib/prompts/datetimePrompt.d.ts": [
+        "../node_modules/botbuilder-core/lib/index.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/prompts/prompt.d.ts"
+      ],
+      "../node_modules/botbuilder-dialogs/lib/prompts/numberPrompt.d.ts": [
+        "../node_modules/botbuilder-core/lib/index.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/prompts/prompt.d.ts"
+      ],
+      "../node_modules/botbuilder-dialogs/lib/prompts/oauthPrompt.d.ts": [
+        "../node_modules/botbuilder-core/lib/index.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/dialog.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/dialogContext.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/prompts/prompt.d.ts"
+      ],
+      "../node_modules/botbuilder-dialogs/lib/prompts/textPrompt.d.ts": [
+        "../node_modules/botbuilder-core/lib/index.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/prompts/prompt.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/dialogContext.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/dialog.d.ts"
+      ],
+      "../node_modules/botbuilder-dialogs/lib/prompts/index.d.ts": [
+        "../node_modules/botbuilder-dialogs/lib/prompts/activityPrompt.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/prompts/attachmentPrompt.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/prompts/choicePrompt.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/prompts/confirmPrompt.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/prompts/datetimePrompt.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/prompts/numberPrompt.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/prompts/oauthPrompt.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/prompts/prompt.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/prompts/textPrompt.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/prompts/promptCultureModels.d.ts"
+      ],
+      "../node_modules/botbuilder-dialogs/lib/memory/pathResolvers/aliasPathResolver.d.ts": [
+        "../node_modules/botbuilder-dialogs/lib/memory/pathResolvers/pathResolver.d.ts"
+      ],
+      "../node_modules/botbuilder-dialogs/lib/memory/pathResolvers/atAtPathResolver.d.ts": [
+        "../node_modules/botbuilder-dialogs/lib/memory/pathResolvers/aliasPathResolver.d.ts"
+      ],
+      "../node_modules/botbuilder-dialogs/lib/memory/pathResolvers/atPathResolver.d.ts": [
+        "../node_modules/botbuilder-dialogs/lib/memory/pathResolvers/aliasPathResolver.d.ts"
+      ],
+      "../node_modules/botbuilder-dialogs/lib/memory/pathResolvers/dollarPathResolver.d.ts": [
+        "../node_modules/botbuilder-dialogs/lib/memory/pathResolvers/aliasPathResolver.d.ts"
+      ],
+      "../node_modules/botbuilder-dialogs/lib/memory/pathResolvers/hashPathResolver.d.ts": [
+        "../node_modules/botbuilder-dialogs/lib/memory/pathResolvers/aliasPathResolver.d.ts"
+      ],
+      "../node_modules/botbuilder-dialogs/lib/memory/pathResolvers/percentPathResolver.d.ts": [
+        "../node_modules/botbuilder-dialogs/lib/memory/pathResolvers/aliasPathResolver.d.ts"
+      ],
+      "../node_modules/botbuilder-dialogs/lib/memory/pathResolvers/index.d.ts": [
+        "../node_modules/botbuilder-dialogs/lib/memory/pathResolvers/aliasPathResolver.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/memory/pathResolvers/atAtPathResolver.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/memory/pathResolvers/atPathResolver.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/memory/pathResolvers/dollarPathResolver.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/memory/pathResolvers/hashPathResolver.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/memory/pathResolvers/pathResolver.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/memory/pathResolvers/percentPathResolver.d.ts"
+      ],
+      "../node_modules/botbuilder-dialogs/lib/memory/scopes/memoryScope.d.ts": [
+        "../node_modules/botbuilder-dialogs/lib/dialogContext.d.ts"
+      ],
+      "../node_modules/botbuilder-dialogs/lib/memory/scopes/botStateMemoryScope.d.ts": [
+        "../node_modules/botbuilder-dialogs/lib/memory/scopes/memoryScope.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/dialogContext.d.ts"
+      ],
+      "../node_modules/botbuilder-dialogs/lib/memory/scopes/classMemoryScope.d.ts": [
+        "../node_modules/botbuilder-dialogs/lib/memory/scopes/memoryScope.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/dialogContext.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/dialog.d.ts"
+      ],
+      "../node_modules/botbuilder-dialogs/lib/memory/scopes/conversationMemoryScope.d.ts": [
+        "../node_modules/botbuilder-dialogs/lib/memory/scopes/botStateMemoryScope.d.ts"
+      ],
+      "../node_modules/botbuilder-dialogs/lib/memory/scopes/dialogClassMemoryScope.d.ts": [
+        "../node_modules/botbuilder-dialogs/lib/memory/scopes/classMemoryScope.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/dialogContext.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/dialog.d.ts"
+      ],
+      "../node_modules/botbuilder-dialogs/lib/memory/scopes/dialogContextMemoryScope.d.ts": [
+        "../node_modules/botbuilder-dialogs/lib/dialogContext.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/memory/scopes/memoryScope.d.ts"
+      ],
+      "../node_modules/botbuilder-dialogs/lib/memory/scopes/dialogMemoryScope.d.ts": [
+        "../node_modules/botbuilder-dialogs/lib/memory/scopes/memoryScope.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/dialogContext.d.ts"
+      ],
+      "../node_modules/botbuilder-dialogs/lib/memory/scopes/settingsMemoryScope.d.ts": [
+        "../node_modules/botbuilder-dialogs/lib/memory/scopes/memoryScope.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/dialogContext.d.ts"
+      ],
+      "../node_modules/botbuilder-dialogs/lib/memory/scopes/thisMemoryScope.d.ts": [
+        "../node_modules/botbuilder-dialogs/lib/memory/scopes/memoryScope.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/dialogContext.d.ts"
+      ],
+      "../node_modules/botbuilder-dialogs/lib/memory/scopes/turnMemoryScope.d.ts": [
+        "../node_modules/botbuilder-dialogs/lib/memory/scopes/memoryScope.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/dialogContext.d.ts"
+      ],
+      "../node_modules/botbuilder-dialogs/lib/memory/scopes/userMemoryScope.d.ts": [
+        "../node_modules/botbuilder-dialogs/lib/memory/scopes/botStateMemoryScope.d.ts"
+      ],
+      "../node_modules/botbuilder-dialogs/lib/memory/scopes/index.d.ts": [
+        "../node_modules/botbuilder-dialogs/lib/memory/scopes/botStateMemoryScope.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/memory/scopes/classMemoryScope.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/memory/scopes/conversationMemoryScope.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/memory/scopes/dialogClassMemoryScope.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/memory/scopes/dialogContextMemoryScope.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/memory/scopes/dialogMemoryScope.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/memory/scopes/memoryScope.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/memory/scopes/settingsMemoryScope.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/memory/scopes/thisMemoryScope.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/memory/scopes/turnMemoryScope.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/memory/scopes/userMemoryScope.d.ts"
+      ],
+      "../node_modules/botbuilder-dialogs/lib/memory/dialogStateManager.d.ts": [
+        "../node_modules/botbuilder-dialogs/lib/memory/pathResolvers/index.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/memory/scopes/index.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/dialogContext.d.ts"
+      ],
+      "../node_modules/botbuilder-dialogs/lib/memory/index.d.ts": [
+        "../node_modules/botbuilder-dialogs/lib/memory/pathResolvers/index.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/memory/scopes/index.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/memory/dialogPath.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/memory/dialogStateManager.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/memory/scopePath.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/memory/thisPath.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/memory/turnPath.d.ts"
+      ],
+      "../node_modules/botbuilder-dialogs/lib/configurable.d.ts": [
+        "../node_modules/botbuilder-dialogs/lib/converter.d.ts"
+      ],
+      "../node_modules/botbuilder-dialogs/lib/dialogManager.d.ts": [
+        "../node_modules/botbuilder-core/lib/index.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/dialog.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/configurable.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/dialogSet.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/memory/index.d.ts"
+      ],
+      "../node_modules/botbuilder-dialogs/lib/dialogContext.d.ts": [
+        "../node_modules/botbuilder-core/lib/index.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/choices/index.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/dialog.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/dialogSet.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/prompts/index.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/memory/index.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/dialogManager.d.ts"
+      ],
+      "../node_modules/botbuilder-dialogs/lib/dialog.d.ts": [
+        "../node_modules/botbuilder-core/lib/index.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/dialogContext.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/configurable.d.ts"
+      ],
+      "../node_modules/botbuilder-dialogs/lib/dialogContainer.d.ts": [
+        "../node_modules/botbuilder-core/lib/index.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/dialog.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/dialogSet.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/dialogContext.d.ts"
+      ],
+      "../node_modules/botbuilder-dialogs/lib/componentDialog.d.ts": [
+        "../node_modules/botbuilder-core/lib/index.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/dialog.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/dialogContext.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/dialogContainer.d.ts"
+      ],
+      "../node_modules/botbuilder-dialogs/lib/dialogContextError.d.ts": [
+        "../node_modules/botbuilder-dialogs/lib/dialogContext.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/dialog.d.ts"
+      ],
+      "../node_modules/botbuilder-dialogs/lib/dialogHelper.d.ts": [
+        "../node_modules/botbuilder-core/lib/index.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/dialogContext.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/dialog.d.ts"
+      ],
+      "../node_modules/botbuilder-dialogs/lib/recognizer.d.ts": [
+        "../node_modules/botbuilder-core/lib/index.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/configurable.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/dialogContext.d.ts"
+      ],
+      "../node_modules/botbuilder-dialogs/lib/skillDialogOptions.d.ts": [
+        "../node_modules/botbuilder-core/lib/index.d.ts"
+      ],
+      "../node_modules/botbuilder-dialogs/lib/skillDialog.d.ts": [
+        "../node_modules/botbuilder-core/lib/index.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/beginSkillDialogOptions.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/dialog.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/dialogContext.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/skillDialogOptions.d.ts"
+      ],
+      "../node_modules/botbuilder-dialogs/lib/template.d.ts": [
+        "../node_modules/botbuilder-dialogs/lib/dialogContext.d.ts"
+      ],
+      "../node_modules/botbuilder-dialogs/lib/waterfallStepContext.d.ts": [
+        "../node_modules/botbuilder-dialogs/lib/dialog.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/dialogContext.d.ts"
+      ],
       "../node_modules/botbuilder-dialogs/lib/waterfallDialog.d.ts": [
         "../node_modules/botbuilder-core/lib/index.d.ts",
         "../node_modules/botbuilder-dialogs/lib/dialog.d.ts",
@@ -3720,490 +4194,48 @@
         "../node_modules/botbuilder-dialogs/lib/waterfallDialog.d.ts",
         "../node_modules/botbuilder-dialogs/lib/waterfallStepContext.d.ts"
       ],
-      "../node_modules/botbuilder-dialogs/lib/skillDialog.d.ts": [
-        "../node_modules/botbuilder-core/lib/index.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/beginSkillDialogOptions.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/dialog.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/dialogContext.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/skillDialogOptions.d.ts"
-      ],
-      "../node_modules/botbuilder-dialogs/lib/skillDialogOptions.d.ts": [
-        "../node_modules/botbuilder-core/lib/index.d.ts"
-      ],
-      "../node_modules/botbuilder-dialogs/lib/recognizer.d.ts": [
-        "../node_modules/botbuilder-core/lib/index.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/configurable.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/dialogContext.d.ts"
-      ],
-      "../node_modules/botbuilder-dialogs/lib/dialogHelper.d.ts": [
-        "../node_modules/botbuilder-core/lib/index.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/dialogContext.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/dialog.d.ts"
-      ],
-      "../node_modules/botbuilder-dialogs/lib/componentDialog.d.ts": [
-        "../node_modules/botbuilder-core/lib/index.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/dialog.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/dialogContext.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/dialogContainer.d.ts"
-      ],
-      "../node_modules/botbuilder-dialogs/lib/dialogContainer.d.ts": [
-        "../node_modules/botbuilder-core/lib/index.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/dialog.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/dialogSet.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/dialogContext.d.ts"
-      ],
-      "../node_modules/botbuilder-dialogs/lib/dialog.d.ts": [
-        "../node_modules/botbuilder-core/lib/index.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/dialogContext.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/configurable.d.ts"
-      ],
-      "../node_modules/botbuilder-dialogs/lib/waterfallStepContext.d.ts": [
-        "../node_modules/botbuilder-dialogs/lib/dialog.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/dialogContext.d.ts"
-      ],
-      "../node_modules/botbuilder-dialogs/lib/dialogContextError.d.ts": [
-        "../node_modules/botbuilder-dialogs/lib/dialogContext.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/dialog.d.ts"
-      ],
-      "../node_modules/botbuilder-dialogs/lib/dialogContext.d.ts": [
-        "../node_modules/botbuilder-core/lib/index.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/choices/index.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/dialog.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/dialogSet.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/prompts/index.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/memory/index.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/dialogManager.d.ts"
-      ],
-      "../node_modules/botbuilder-dialogs/lib/template.d.ts": [
-        "../node_modules/botbuilder-dialogs/lib/dialogContext.d.ts"
-      ],
-      "../node_modules/botbuilder-dialogs/lib/memory/dialogStateManager.d.ts": [
-        "../node_modules/botbuilder-dialogs/lib/memory/pathResolvers/index.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/memory/scopes/index.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/dialogContext.d.ts"
-      ],
-      "../node_modules/botbuilder-dialogs/lib/memory/index.d.ts": [
-        "../node_modules/botbuilder-dialogs/lib/memory/pathResolvers/index.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/memory/scopes/index.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/memory/dialogPath.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/memory/dialogStateManager.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/memory/scopePath.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/memory/thisPath.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/memory/turnPath.d.ts"
-      ],
-      "../node_modules/botbuilder-dialogs/lib/dialogManager.d.ts": [
-        "../node_modules/botbuilder-core/lib/index.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/dialog.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/configurable.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/dialogSet.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/memory/index.d.ts"
-      ],
-      "../node_modules/botbuilder-dialogs/lib/memory/scopes/turnMemoryScope.d.ts": [
-        "../node_modules/botbuilder-dialogs/lib/memory/scopes/memoryScope.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/dialogContext.d.ts"
-      ],
-      "../node_modules/botbuilder-dialogs/lib/memory/scopes/index.d.ts": [
-        "../node_modules/botbuilder-dialogs/lib/memory/scopes/botStateMemoryScope.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/memory/scopes/classMemoryScope.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/memory/scopes/conversationMemoryScope.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/memory/scopes/dialogClassMemoryScope.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/memory/scopes/dialogContextMemoryScope.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/memory/scopes/dialogMemoryScope.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/memory/scopes/memoryScope.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/memory/scopes/settingsMemoryScope.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/memory/scopes/thisMemoryScope.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/memory/scopes/turnMemoryScope.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/memory/scopes/userMemoryScope.d.ts"
-      ],
-      "../node_modules/botbuilder-dialogs/lib/memory/scopes/thisMemoryScope.d.ts": [
-        "../node_modules/botbuilder-dialogs/lib/memory/scopes/memoryScope.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/dialogContext.d.ts"
-      ],
-      "../node_modules/botbuilder-dialogs/lib/memory/scopes/settingsMemoryScope.d.ts": [
-        "../node_modules/botbuilder-dialogs/lib/memory/scopes/memoryScope.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/dialogContext.d.ts"
-      ],
-      "../node_modules/botbuilder-dialogs/lib/memory/scopes/dialogMemoryScope.d.ts": [
-        "../node_modules/botbuilder-dialogs/lib/memory/scopes/memoryScope.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/dialogContext.d.ts"
-      ],
-      "../node_modules/botbuilder-dialogs/lib/memory/scopes/dialogContextMemoryScope.d.ts": [
-        "../node_modules/botbuilder-dialogs/lib/dialogContext.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/memory/scopes/memoryScope.d.ts"
-      ],
-      "../node_modules/botbuilder-dialogs/lib/memory/scopes/dialogClassMemoryScope.d.ts": [
-        "../node_modules/botbuilder-dialogs/lib/memory/scopes/classMemoryScope.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/dialogContext.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/dialog.d.ts"
-      ],
-      "../node_modules/botbuilder-dialogs/lib/memory/scopes/classMemoryScope.d.ts": [
-        "../node_modules/botbuilder-dialogs/lib/memory/scopes/memoryScope.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/dialogContext.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/dialog.d.ts"
-      ],
-      "../node_modules/botbuilder-dialogs/lib/memory/scopes/botStateMemoryScope.d.ts": [
-        "../node_modules/botbuilder-dialogs/lib/memory/scopes/memoryScope.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/dialogContext.d.ts"
-      ],
-      "../node_modules/botbuilder-dialogs/lib/memory/scopes/userMemoryScope.d.ts": [
-        "../node_modules/botbuilder-dialogs/lib/memory/scopes/botStateMemoryScope.d.ts"
-      ],
-      "../node_modules/botbuilder-dialogs/lib/memory/scopes/conversationMemoryScope.d.ts": [
-        "../node_modules/botbuilder-dialogs/lib/memory/scopes/botStateMemoryScope.d.ts"
-      ],
-      "../node_modules/botbuilder-dialogs/lib/memory/scopes/memoryScope.d.ts": [
-        "../node_modules/botbuilder-dialogs/lib/dialogContext.d.ts"
-      ],
-      "../node_modules/botbuilder-dialogs/lib/prompts/textPrompt.d.ts": [
-        "../node_modules/botbuilder-core/lib/index.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/prompts/prompt.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/dialogContext.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/dialog.d.ts"
-      ],
-      "../node_modules/botbuilder-dialogs/lib/prompts/index.d.ts": [
-        "../node_modules/botbuilder-dialogs/lib/prompts/activityPrompt.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/prompts/attachmentPrompt.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/prompts/choicePrompt.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/prompts/confirmPrompt.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/prompts/datetimePrompt.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/prompts/numberPrompt.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/prompts/oauthPrompt.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/prompts/prompt.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/prompts/textPrompt.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/prompts/promptCultureModels.d.ts"
-      ],
-      "../node_modules/botbuilder-dialogs/lib/prompts/oauthPrompt.d.ts": [
-        "../node_modules/botbuilder-core/lib/index.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/dialog.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/dialogContext.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/prompts/prompt.d.ts"
-      ],
-      "../node_modules/botbuilder-dialogs/lib/prompts/activityPrompt.d.ts": [
-        "../node_modules/botbuilder-core/lib/index.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/dialog.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/dialogContext.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/prompts/prompt.d.ts"
-      ],
-      "../node_modules/botbuilder-dialogs/lib/prompts/prompt.d.ts": [
-        "../node_modules/botbuilder-core/lib/index.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/choices/index.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/dialog.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/dialogContext.d.ts"
-      ],
-      "../node_modules/botbuilder-dialogs/lib/prompts/numberPrompt.d.ts": [
-        "../node_modules/botbuilder-core/lib/index.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/prompts/prompt.d.ts"
-      ],
-      "../node_modules/botbuilder-dialogs/lib/prompts/datetimePrompt.d.ts": [
-        "../node_modules/botbuilder-core/lib/index.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/prompts/prompt.d.ts"
-      ],
-      "../node_modules/botbuilder-dialogs/lib/prompts/confirmPrompt.d.ts": [
-        "../node_modules/botbuilder-core/lib/index.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/choices/index.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/prompts/prompt.d.ts"
-      ],
-      "../node_modules/botbuilder-dialogs/lib/prompts/choicePrompt.d.ts": [
-        "../node_modules/botbuilder-core/lib/index.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/choices/index.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/prompts/prompt.d.ts"
-      ],
-      "../node_modules/botbuilder-dialogs/lib/prompts/attachmentPrompt.d.ts": [
-        "../node_modules/botbuilder-core/lib/index.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/prompts/prompt.d.ts"
-      ],
-      "../node_modules/botbuilder-dialogs/lib/dialogSet.d.ts": [
-        "../node_modules/botbuilder-core/lib/index.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/dialog.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/dialogContext.d.ts"
-      ],
-      "../node_modules/botbuilder-dialogs/lib/choices/choiceFactory.d.ts": [
-        "../node_modules/botbuilder-core/lib/index.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/choices/findChoices.d.ts"
-      ],
-      "../node_modules/botbuilder-dialogs/lib/choices/index.d.ts": [
-        "../node_modules/botbuilder-dialogs/lib/choices/channel.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/choices/choiceFactory.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/choices/findChoices.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/choices/findValues.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/choices/modelResult.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/choices/recognizeChoices.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/choices/tokenizer.d.ts"
-      ],
-      "../node_modules/botbuilder-dialogs/lib/choices/findChoices.d.ts": [
-        "../node_modules/botbuilder-core/lib/index.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/choices/findValues.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/choices/modelResult.d.ts"
-      ],
-      "../node_modules/botbuilder-dialogs/lib/choices/recognizeChoices.d.ts": [
-        "../node_modules/botbuilder-dialogs/lib/choices/findChoices.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/choices/modelResult.d.ts"
-      ],
-      "../node_modules/botbuilder-dialogs/lib/choices/channel.d.ts": [
-        "../node_modules/botbuilder-core/lib/index.d.ts"
-      ],
-      "../node_modules/botbuilder-dialogs/lib/beginSkillDialogOptions.d.ts": [
-        "../node_modules/botbuilder-core/lib/index.d.ts"
-      ],
-      "../node_modules/botbuilder/lib/teamsInfo.d.ts": [
-        "../node_modules/botbuilder-core/lib/index.d.ts"
-      ],
-      "../node_modules/botbuilder/lib/teamsActivityHelpers.d.ts": [
-        "../node_modules/botbuilder-core/lib/index.d.ts"
-      ],
-      "../node_modules/botbuilder/lib/teamsActivityHandler.d.ts": [
-        "../node_modules/botbuilder-core/lib/index.d.ts"
-      ],
-      "../node_modules/botbuilder/lib/statusCodeError.d.ts": [
-        "../node_modules/botbuilder-core/lib/index.d.ts"
-      ],
-      "../node_modules/botbuilder/lib/fileTranscriptStore.d.ts": [
-        "../node_modules/botbuilder-core/lib/index.d.ts"
-      ],
-      "../node_modules/botbuilder-core/lib/activityHandlerBase.d.ts": [
-        "../node_modules/botbuilder-core/lib/index.d.ts",
-        "../node_modules/botbuilder-core/lib/invokeResponse.d.ts"
-      ],
-      "../node_modules/botbuilder-core/lib/activityHandler.d.ts": [
-        "../node_modules/botframework-schema/lib/index.d.ts",
-        "../node_modules/botbuilder-core/lib/activityHandlerBase.d.ts",
-        "../node_modules/botbuilder-core/lib/invokeResponse.d.ts",
-        "../node_modules/botbuilder-core/lib/turnContext.d.ts"
-      ],
-      "../node_modules/botbuilder-core/lib/testAdapter.d.ts": [
-        "../node_modules/botframework-schema/lib/index.d.ts",
-        "../node_modules/botbuilder-core/lib/botAdapter.d.ts",
-        "../node_modules/botbuilder-core/lib/extendedUserTokenProvider.d.ts",
-        "../node_modules/botbuilder-core/lib/turnContext.d.ts"
-      ],
-      "../node_modules/botbuilder-core/lib/telemetryLoggerMiddleware.d.ts": [
-        "../node_modules/botbuilder-core/lib/botTelemetryClient.d.ts",
-        "../node_modules/botbuilder-core/lib/middlewareSet.d.ts",
-        "../node_modules/botbuilder-core/lib/turnContext.d.ts",
-        "../node_modules/botframework-schema/lib/index.d.ts"
-      ],
-      "../node_modules/botbuilder-core/lib/skypeMentionNormalizeMiddleware.d.ts": [
-        "../node_modules/botframework-schema/lib/index.d.ts",
-        "../node_modules/botbuilder-core/lib/middlewareSet.d.ts",
-        "../node_modules/botbuilder-core/lib/turnContext.d.ts"
-      ],
-      "../node_modules/botbuilder-core/lib/skills/skillConversationIdFactoryBase.d.ts": [
-        "../node_modules/botframework-schema/lib/index.d.ts",
-        "../node_modules/botbuilder-core/lib/skills/skillConversationIdFactoryOptions.d.ts",
-        "../node_modules/botbuilder-core/lib/skills/skillConversationReference.d.ts"
-      ],
-      "../node_modules/botbuilder-core/lib/skills/index.d.ts": [
-        "../node_modules/botbuilder-core/lib/skills/botFrameworkClient.d.ts",
-        "../node_modules/botbuilder-core/lib/skills/botFrameworkSkill.d.ts",
-        "../node_modules/botbuilder-core/lib/skills/constants.d.ts",
-        "../node_modules/botbuilder-core/lib/skills/skillConversationIdFactoryBase.d.ts",
-        "../node_modules/botbuilder-core/lib/skills/skillConversationReference.d.ts",
-        "../node_modules/botbuilder-core/lib/skills/skillConversationIdFactoryOptions.d.ts"
-      ],
-      "../node_modules/botbuilder-core/lib/skills/skillConversationReference.d.ts": [
-        "../node_modules/botframework-schema/lib/index.d.ts"
-      ],
-      "../node_modules/botbuilder-core/lib/skills/skillConversationIdFactoryOptions.d.ts": [
-        "../node_modules/botframework-schema/lib/index.d.ts",
-        "../node_modules/botbuilder-core/lib/skills/botFrameworkSkill.d.ts"
-      ],
-      "../node_modules/botbuilder-core/lib/skills/botFrameworkClient.d.ts": [
-        "../node_modules/botframework-schema/lib/index.d.ts",
-        "../node_modules/botbuilder-core/lib/invokeResponse.d.ts"
-      ],
-      "../node_modules/botbuilder-core/lib/messageFactory.d.ts": [
-        "../node_modules/botframework-schema/lib/index.d.ts"
-      ],
-      "../node_modules/botbuilder-core/lib/memoryTranscriptStore.d.ts": [
-        "../node_modules/botframework-schema/lib/index.d.ts",
-        "../node_modules/botbuilder-core/lib/transcriptLogger.d.ts"
-      ],
-      "../node_modules/botbuilder-core/lib/transcriptLogger.d.ts": [
-        "../node_modules/botframework-schema/lib/index.d.ts",
-        "../node_modules/botbuilder-core/lib/middlewareSet.d.ts",
-        "../node_modules/botbuilder-core/lib/turnContext.d.ts"
-      ],
-      "../node_modules/botbuilder-core/lib/extendedUserTokenProvider.d.ts": [
-        "../node_modules/botbuilder-core/lib/coreAppCredentials.d.ts",
-        "../node_modules/botbuilder-core/lib/userTokenProvider.d.ts",
-        "../node_modules/botbuilder-core/lib/turnContext.d.ts",
-        "../node_modules/botframework-schema/lib/index.d.ts"
-      ],
-      "../node_modules/botbuilder-core/lib/userTokenProvider.d.ts": [
-        "../node_modules/botbuilder-core/lib/turnContext.d.ts",
-        "../node_modules/botframework-schema/lib/index.d.ts"
-      ],
-      "../node_modules/botbuilder-core/lib/cardFactory.d.ts": [
-        "../node_modules/botframework-schema/lib/index.d.ts"
-      ],
-      "../node_modules/botbuilder-core/lib/botAdapter.d.ts": [
-        "../node_modules/botframework-schema/lib/index.d.ts",
-        "../node_modules/botbuilder-core/lib/middlewareSet.d.ts",
-        "../node_modules/botbuilder-core/lib/turnContext.d.ts"
-      ],
-      "../node_modules/botbuilder-core/lib/adapterExtensions.d.ts": [
-        "../node_modules/botbuilder-core/lib/botAdapter.d.ts",
-        "../node_modules/botbuilder-core/lib/botState.d.ts"
-      ],
-      "../node_modules/botbuilder-core/lib/turnContext.d.ts": [
-        "../node_modules/botframework-schema/lib/index.d.ts",
-        "../node_modules/botbuilder-core/lib/botAdapter.d.ts",
-        "../node_modules/botbuilder-core/lib/turnContextStateCollection.d.ts"
-      ],
-      "../node_modules/botbuilder-core/lib/userState.d.ts": [
-        "../node_modules/botbuilder-core/lib/botState.d.ts",
-        "../node_modules/botbuilder-core/lib/storage.d.ts",
-        "../node_modules/botbuilder-core/lib/turnContext.d.ts"
-      ],
-      "../node_modules/botbuilder-core/lib/showTypingMiddleware.d.ts": [
-        "../node_modules/botbuilder-core/lib/middlewareSet.d.ts",
-        "../node_modules/botbuilder-core/lib/turnContext.d.ts"
-      ],
-      "../node_modules/botbuilder-core/lib/registerClassMiddleware.d.ts": [
-        "../node_modules/botbuilder-core/lib/middlewareSet.d.ts",
-        "../node_modules/botbuilder-core/lib/turnContext.d.ts"
-      ],
-      "../node_modules/botbuilder-core/lib/privateConversationState.d.ts": [
-        "../node_modules/botbuilder-core/lib/botState.d.ts",
-        "../node_modules/botbuilder-core/lib/storage.d.ts",
-        "../node_modules/botbuilder-core/lib/turnContext.d.ts"
-      ],
-      "../node_modules/botbuilder-core/lib/conversationState.d.ts": [
-        "../node_modules/botbuilder-core/lib/botState.d.ts",
-        "../node_modules/botbuilder-core/lib/storage.d.ts",
-        "../node_modules/botbuilder-core/lib/turnContext.d.ts"
-      ],
-      "../node_modules/botbuilder-core/lib/autoSaveStateMiddleware.d.ts": [
-        "../node_modules/botbuilder-core/lib/botState.d.ts",
-        "../node_modules/botbuilder-core/lib/botStateSet.d.ts",
-        "../node_modules/botbuilder-core/lib/middlewareSet.d.ts",
-        "../node_modules/botbuilder-core/lib/turnContext.d.ts"
-      ],
-      "../node_modules/botbuilder-core/lib/botStateSet.d.ts": [
-        "../node_modules/botbuilder-core/lib/botState.d.ts",
-        "../node_modules/botbuilder-core/lib/turnContext.d.ts"
-      ],
-      "../node_modules/botbuilder-core/lib/botState.d.ts": [
-        "../node_modules/botbuilder-core/lib/botStatePropertyAccessor.d.ts",
-        "../node_modules/botbuilder-core/lib/propertyManager.d.ts",
-        "../node_modules/botbuilder-core/lib/storage.d.ts",
-        "../node_modules/botbuilder-core/lib/turnContext.d.ts"
-      ],
-      "../node_modules/botbuilder-core/lib/botStatePropertyAccessor.d.ts": [
-        "../node_modules/botbuilder-core/lib/botState.d.ts",
-        "../node_modules/botbuilder-core/lib/turnContext.d.ts"
-      ],
-      "../node_modules/botbuilder-core/lib/propertyManager.d.ts": [
-        "../node_modules/botbuilder-core/lib/botStatePropertyAccessor.d.ts"
-      ],
-      "../node_modules/botbuilder-core/lib/storage.d.ts": [
-        "../node_modules/botbuilder-core/lib/turnContext.d.ts"
-      ],
-      "../node_modules/botbuilder-core/lib/memoryStorage.d.ts": [
-        "../node_modules/botbuilder-core/lib/storage.d.ts"
-      ],
-      "../node_modules/botbuilder-core/lib/browserStorage.d.ts": [
-        "../node_modules/botbuilder-core/lib/memoryStorage.d.ts"
-      ],
-      "../node_modules/botbuilder-core/lib/middlewareSet.d.ts": [
-        "../node_modules/botbuilder-core/lib/turnContext.d.ts"
-      ],
-      "../node_modules/botbuilder-core/lib/activityFactory.d.ts": [
-        "../node_modules/botframework-schema/lib/index.d.ts"
-      ],
-      "../node_modules/botframework-schema/lib/teams/index.d.ts": [
-        "../node_modules/botframework-schema/lib/teams/extension/index.d.ts",
-        "../node_modules/botframework-schema/lib/index.d.ts"
-      ],
-      "../node_modules/botframework-schema/lib/teams/extension/index.d.ts": [
-        "../node_modules/botframework-schema/lib/index.d.ts",
-        "../node_modules/botframework-schema/lib/teams/index.d.ts"
-      ],
-      "../node_modules/botframework-schema/lib/activityEx.d.ts": [
-        "../node_modules/botframework-schema/lib/activityInterfaces.d.ts",
-        "../node_modules/botframework-schema/lib/index.d.ts"
-      ],
-      "../node_modules/botframework-connector/lib/auth/skillValidation.d.ts": [
-        "../node_modules/botframework-connector/lib/auth/authenticationConfiguration.d.ts",
-        "../node_modules/botframework-connector/lib/auth/claimsIdentity.d.ts",
-        "../node_modules/botframework-connector/lib/auth/credentialProvider.d.ts"
-      ],
-      "../node_modules/@azure/ms-rest-js/es/lib/operationParameter.d.ts": [
-        "../node_modules/@azure/ms-rest-js/es/lib/queryCollectionFormat.d.ts",
-        "../node_modules/@azure/ms-rest-js/es/lib/serializer.d.ts"
-      ],
-      "../node_modules/@azure/ms-rest-js/es/lib/operationResponse.d.ts": [
-        "../node_modules/@azure/ms-rest-js/es/lib/serializer.d.ts"
-      ],
-      "../node_modules/@azure/ms-rest-js/es/lib/httpPipelineLogger.d.ts": [
-        "../node_modules/@azure/ms-rest-js/es/lib/httpPipelineLogLevel.d.ts"
-      ],
-      "../node_modules/botframework-connector/lib/auth/authenticationConfiguration.d.ts": [
-        "../node_modules/botframework-connector/lib/auth/claimsIdentity.d.ts"
-      ],
-      "../node_modules/botframework-streaming/lib/interfaces/IAssemblerParams.d.ts": [
-        "../node_modules/botframework-streaming/lib/interfaces/IHeader.d.ts"
-      ],
-      "../node_modules/botframework-streaming/lib/payloads/headerSerializer.d.ts": [
-        "../node_modules/botframework-streaming/lib/interfaces/IHeader.d.ts",
-        "../node_modules/botframework-streaming/lib/interfaces/INodeBuffer.d.ts"
-      ],
-      "../node_modules/botframework-streaming/lib/webSocket/webSocketTransport.d.ts": [
-        "../node_modules/botframework-streaming/lib/interfaces/INodeBuffer.d.ts",
-        "../node_modules/botframework-streaming/lib/interfaces/ISocket.d.ts",
-        "../node_modules/botframework-streaming/lib/interfaces/ITransportSender.d.ts",
-        "../node_modules/botframework-streaming/lib/interfaces/ITransportReceiver.d.ts"
-      ],
-      "../node_modules/botframework-streaming/lib/interfaces/ITransportReceiver.d.ts": [
-        "../node_modules/botframework-streaming/lib/interfaces/ITransport.d.ts",
-        "../node_modules/botframework-streaming/lib/interfaces/INodeBuffer.d.ts"
-      ],
-      "../node_modules/botframework-streaming/lib/interfaces/ISocket.d.ts": [
-        "../node_modules/botframework-streaming/lib/interfaces/INodeBuffer.d.ts"
-      ],
-      "../node_modules/botframework-streaming/lib/interfaces/ITransportSender.d.ts": [
-        "../node_modules/botframework-streaming/lib/interfaces/ITransport.d.ts",
-        "../node_modules/botframework-streaming/lib/interfaces/INodeBuffer.d.ts"
-      ],
-      "../node_modules/botframework-streaming/lib/payloadTransport/transportDisconnectedEventHandler.d.ts": [
-        "../node_modules/botframework-streaming/lib/payloadTransport/transportDisconnectedEvent.d.ts"
-      ],
-      "../node_modules/botbuilder-dialogs/lib/choices/findValues.d.ts": [
-        "../node_modules/botbuilder-dialogs/lib/choices/modelResult.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/choices/tokenizer.d.ts"
-      ],
-      "../node_modules/botbuilder-dialogs/lib/memory/pathResolvers/index.d.ts": [
-        "../node_modules/botbuilder-dialogs/lib/memory/pathResolvers/aliasPathResolver.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/memory/pathResolvers/atAtPathResolver.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/memory/pathResolvers/atPathResolver.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/memory/pathResolvers/dollarPathResolver.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/memory/pathResolvers/hashPathResolver.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/memory/pathResolvers/pathResolver.d.ts",
-        "../node_modules/botbuilder-dialogs/lib/memory/pathResolvers/percentPathResolver.d.ts"
-      ],
-      "../node_modules/botbuilder-dialogs/lib/memory/pathResolvers/aliasPathResolver.d.ts": [
-        "../node_modules/botbuilder-dialogs/lib/memory/pathResolvers/pathResolver.d.ts"
-      ],
-      "../node_modules/botbuilder-dialogs/lib/memory/pathResolvers/percentPathResolver.d.ts": [
-        "../node_modules/botbuilder-dialogs/lib/memory/pathResolvers/aliasPathResolver.d.ts"
-      ],
-      "../node_modules/botbuilder-dialogs/lib/memory/pathResolvers/hashPathResolver.d.ts": [
-        "../node_modules/botbuilder-dialogs/lib/memory/pathResolvers/aliasPathResolver.d.ts"
-      ],
-      "../node_modules/botbuilder-dialogs/lib/memory/pathResolvers/dollarPathResolver.d.ts": [
-        "../node_modules/botbuilder-dialogs/lib/memory/pathResolvers/aliasPathResolver.d.ts"
-      ],
-      "../node_modules/botbuilder-dialogs/lib/memory/pathResolvers/atPathResolver.d.ts": [
-        "../node_modules/botbuilder-dialogs/lib/memory/pathResolvers/aliasPathResolver.d.ts"
-      ],
-      "../node_modules/botbuilder-dialogs/lib/memory/pathResolvers/atAtPathResolver.d.ts": [
-        "../node_modules/botbuilder-dialogs/lib/memory/pathResolvers/aliasPathResolver.d.ts"
-      ],
-      "../node_modules/botbuilder-dialogs/lib/configurable.d.ts": [
-        "../node_modules/botbuilder-dialogs/lib/converter.d.ts"
+      "../src/dialogs/userProfileDialog.ts": [
+        "../node_modules/botbuilder/lib/index.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/index.d.ts"
+      ],
+      "../src/bots/dialogBot.ts": [
+        "../node_modules/botbuilder/lib/index.d.ts",
+        "../node_modules/botbuilder-dialogs/lib/index.d.ts"
       ]
     },
     "semanticDiagnosticsPerFile": [
+      "../node_modules/typescript/lib/lib.es5.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.d.ts",
+      "../node_modules/typescript/lib/lib.es2016.d.ts",
+      "../node_modules/typescript/lib/lib.es2017.d.ts",
+      "../node_modules/typescript/lib/lib.es2018.d.ts",
+      "../node_modules/typescript/lib/lib.dom.d.ts",
+      "../node_modules/typescript/lib/lib.dom.iterable.d.ts",
+      "../node_modules/typescript/lib/lib.webworker.importscripts.d.ts",
+      "../node_modules/typescript/lib/lib.scripthost.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.core.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.generator.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.iterable.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.promise.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.proxy.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.reflect.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.symbol.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+      "../node_modules/typescript/lib/lib.es2016.array.include.d.ts",
+      "../node_modules/typescript/lib/lib.es2017.object.d.ts",
+      "../node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts",
+      "../node_modules/typescript/lib/lib.es2017.string.d.ts",
+      "../node_modules/typescript/lib/lib.es2017.intl.d.ts",
+      "../node_modules/typescript/lib/lib.es2017.typedarrays.d.ts",
+      "../node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts",
+      "../node_modules/typescript/lib/lib.es2018.asynciterable.d.ts",
+      "../node_modules/typescript/lib/lib.es2018.intl.d.ts",
+      "../node_modules/typescript/lib/lib.es2018.promise.d.ts",
+      "../node_modules/typescript/lib/lib.es2018.regexp.d.ts",
+      "../node_modules/typescript/lib/lib.esnext.intl.d.ts",
+      "../node_modules/typescript/lib/lib.esnext.bigint.d.ts",
+      "../node_modules/typescript/lib/lib.es2016.full.d.ts",
       "../node_modules/@types/node/globals.d.ts",
       "../node_modules/@types/node/async_hooks.d.ts",
       "../node_modules/@types/node/buffer.d.ts",
@@ -4532,39 +4564,7 @@
       "../src/userProfile.ts",
       "../src/dialogs/userProfileDialog.ts",
       "../src/bots/dialogBot.ts",
-      "../src/index.ts",
-      "../node_modules/typescript/lib/lib.es2015.d.ts",
-      "../node_modules/typescript/lib/lib.es2016.d.ts",
-      "../node_modules/typescript/lib/lib.es2017.d.ts",
-      "../node_modules/typescript/lib/lib.es2018.d.ts",
-      "../node_modules/typescript/lib/lib.es2016.full.d.ts",
-      "../node_modules/typescript/lib/lib.es5.d.ts",
-      "../node_modules/typescript/lib/lib.dom.d.ts",
-      "../node_modules/typescript/lib/lib.dom.iterable.d.ts",
-      "../node_modules/typescript/lib/lib.webworker.importscripts.d.ts",
-      "../node_modules/typescript/lib/lib.scripthost.d.ts",
-      "../node_modules/typescript/lib/lib.es2015.core.d.ts",
-      "../node_modules/typescript/lib/lib.es2015.collection.d.ts",
-      "../node_modules/typescript/lib/lib.es2015.generator.d.ts",
-      "../node_modules/typescript/lib/lib.es2015.iterable.d.ts",
-      "../node_modules/typescript/lib/lib.es2015.promise.d.ts",
-      "../node_modules/typescript/lib/lib.es2015.proxy.d.ts",
-      "../node_modules/typescript/lib/lib.es2015.reflect.d.ts",
-      "../node_modules/typescript/lib/lib.es2015.symbol.d.ts",
-      "../node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
-      "../node_modules/typescript/lib/lib.es2016.array.include.d.ts",
-      "../node_modules/typescript/lib/lib.es2017.object.d.ts",
-      "../node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts",
-      "../node_modules/typescript/lib/lib.es2017.string.d.ts",
-      "../node_modules/typescript/lib/lib.es2017.intl.d.ts",
-      "../node_modules/typescript/lib/lib.es2017.typedarrays.d.ts",
-      "../node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts",
-      "../node_modules/typescript/lib/lib.es2018.asynciterable.d.ts",
-      "../node_modules/typescript/lib/lib.es2018.intl.d.ts",
-      "../node_modules/typescript/lib/lib.es2018.promise.d.ts",
-      "../node_modules/typescript/lib/lib.es2018.regexp.d.ts",
-      "../node_modules/typescript/lib/lib.esnext.intl.d.ts",
-      "../node_modules/typescript/lib/lib.esnext.bigint.d.ts"
+      "../src/index.ts"
     ]
   },
   "version": "3.6.5"
