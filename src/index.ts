@@ -13,8 +13,6 @@ import { BotFrameworkAdapter, ConversationState, MemoryStorage, UserState } from
 import { DialogBot } from './bots/dialogBot';
 import { UserProfileDialog } from './dialogs/userProfileDialog';
 
-// Read environment variables from .env file
-const ENV_FILE = path.join(__dirname, '.env');
 config();
 
 // Create the adapter. See https://aka.ms/about-bot-adapter to learn more about using information from
@@ -65,7 +63,7 @@ server.listen(process.env.port || process.env.PORT || 3978, () => {
     console.log(`\n${server.name} listening to ${server.url}.`);
     console.log('\nGet Bot Framework Emulator: https://aka.ms/botframework-emulator');
     console.log('\nTo talk to your bot, open the emulator select "Open Bot"');
-    console.log(process.env.MicrosoftAppId, process.env.appPassword);
+    console.log(adapter);
 });
 
 // Listen for incoming requests.
