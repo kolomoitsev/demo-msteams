@@ -1442,7 +1442,7 @@
         "signature": "3550582f23ba71f8fc9c03b653646ec749b7af604d4b14f760c26adae90bae4b"
       },
       "../src/index.ts": {
-        "version": "3cb716abeb57d280b352c1f02cff4cf83829855c6f38fcf3cb00cf12aa96d8d6",
+        "version": "c3e2db0d84c00a06a9d2a175eb0b88bbe43429785d6cbc0cee41bfe8bc470e64",
         "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881"
       }
     },
@@ -2828,7 +2828,6 @@
       ],
       "../src/index.ts": [
         "../node_modules/dotenv/types/index.d.ts",
-        "../node_modules/@types/node/path.d.ts",
         "../node_modules/@types/restify/index.d.ts",
         "../node_modules/botbuilder/lib/index.d.ts",
         "../src/bots/dialogBot.ts",

@@ -2,7 +2,6 @@
 // Licensed under the MIT License.
 
 import { config } from 'dotenv';
-import * as path from 'path';
 import * as restify from 'restify';
 
 // Import required bot services.
@@ -61,8 +60,8 @@ const bot = new DialogBot(conversationState, userState, dialog);
 const server = restify.createServer();
 server.listen(process.env.port || process.env.PORT || 3978, () => {
     console.log(`\n${server.name} listening to ${server.url}.`);
-    console.log('\nGet Bot Framework Emulator: https://aka.ms/botframework-emulator');
-    console.log('\nTo talk to your bot, open the emulator select "Open Bot"');
+    // console.log('\nGet Bot Framework Emulator: https://aka.ms/botframework-emulator');
+    // console.log('\nTo talk to your bot, open the emulator select "Open Bot"');
     console.log(adapter);
 });
 
@@ -71,5 +70,6 @@ server.post('/api/messages', (req, res) => {
     adapter.processActivity(req, res, async (context) => {
         // Route the message to the bot's main handler.
         await bot.run(context);
-    });
+    })
+        .catch((err: ExceptionInformation) => console.log(err));
 });
